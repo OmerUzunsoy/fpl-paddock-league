@@ -27,6 +27,21 @@ export function zoomLapRange(window,totalLaps,lap,factor){
  const start=Math.min(totalLaps-nextSize+1,Math.max(0,Math.round(lap-anchor*(nextSize-1))));
  return {start,end:start+nextSize-1};
 }
+export function lapGaps(first,second,window,includeAll=false){
+ const start=Math.max(1,window.start);
+ return Array.from({length:Math.max(0,window.end-start+1)},(_,i)=>{
+  const lap=start+i;
+  const firstTime=paceAt(first,lap,includeAll),secondTime=paceAt(second,lap,includeAll);
+  return {lap,gap:firstTime===null||secondTime===null?null:secondTime-firstTime};
+ });
+}
+export function lapGapLimit(rows){
+ const gaps=rows.filter(row=>row.gap!==null).map(row=>Math.abs(row.gap)).sort((a,b)=>a-b);
+ if(!gaps.length)return null;
+ // A few large gaps should not compress the rest of the chart.
+ const typical=gaps[Math.ceil(gaps.length*.8)-1];
+ return Math.max(500,Math.ceil(typical/500)*500);
+}
 export function teamEconomy(drivers,prices,budget){
  return [...new Set(drivers.map(d=>d.team))].map(name=>{
   const members=drivers.filter(d=>d.team===name),known=members.filter(d=>d.peakDamage!==null);

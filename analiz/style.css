@@ -37,3 +37,23 @@
 .lap-window-actions button:hover:not(:disabled){border-color:#91c7ff}
 .lap-window-actions button:disabled{opacity:.4}
 .lap-comparison{color:#91c7ff;font-weight:700;margin:10px 0}
+
+.chart-display{display:flex;flex-direction:column;min-width:0}
+.chart-display.is-comparing .lap-control{order:1}
+.chart-display.is-comparing .chart-absolute{order:2;margin-top:16px}
+.lap-gap-panel{border:1px solid var(--line);border-radius:6px;background:#20212b;padding:12px;margin-block:10px 14px}
+.lap-gap-heading{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.lap-gap-heading h3{margin:0}
+.lap-gap-heading h3 small,.lap-gap-heading b{font-size:.875rem;color:var(--muted)}
+.lap-gap-panel .lap-comparison{font-size:clamp(1.05rem,2vw,1.4rem);color:var(--white);margin:8px 0 11px}
+.lap-gap-panel .lap-comparison[data-leader=first]{color:#ff8491}
+.lap-gap-panel .lap-comparison[data-leader=second]{color:#a5d2ff}
+.lap-gap-legend{display:flex;flex-wrap:wrap;gap:5px 12px;color:var(--muted);font-size:.875rem}
+.lap-gap-legend i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:5px}
+.lap-gap-chart svg{display:block;width:100%;height:auto}
+.lap-gap-chart [data-gap-lap]{cursor:pointer}
+.lap-gap-zero{stroke:#d8dbe6;stroke-width:1.25}
+.lap-gap-grid{stroke:#515463;stroke-dasharray:3 4}
+.lap-gap-current{fill:#ffffff16}
+.lap-gap-chart .lap-gap-selected-label{fill:var(--white);font-weight:700}
+.lap-gap-panel>.note{margin:0}
