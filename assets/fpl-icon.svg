@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>FPL Paddock League</title>
+  <rect width="64" height="64" rx="13" fill="#101014"/>
+  <g transform="translate(12 18) skewX(-12)" fill="#ff3048">
+    <path d="M0 0h15v6H7v5h7v6H7v10H0z"/>
+    <path fill-rule="evenodd" d="M19 0h11c5 0 7 3 7 8v3c0 5-2 8-7 8h-4v8h-7zm7 6v7h3c1 0 2-1 2-2V8c0-1-1-2-2-2z"/>
+    <path d="M41 0h7v21h9v6H41z"/>
+  </g>
+  <path d="M8 51h47l-2 4H7z" fill="#ff3048"/>
+</svg>
