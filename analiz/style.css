@@ -26,3 +26,14 @@
 .lap-sectors span{white-space:nowrap}
 .lap-table .clean-lap{color:#7fe1b2}
 @media(max-width:620px){.lap-table td,.lap-table th{padding:8px 6px}.lap-table td{font-size:.875rem}.lap-sectors{flex-direction:column;gap:2px}.chart-modes button{flex:1 1 105px}}
+
+.lap-window{margin:16px 0;border:1px solid var(--line);border-radius:6px;padding:10px 12px 12px;min-width:0}
+.lap-window legend{color:var(--muted);padding:0 6px}
+.lap-window-range,.lap-window-actions{display:flex;flex-wrap:wrap;gap:8px}
+.lap-window-range{margin-bottom:8px}
+.lap-window-range label{display:grid;gap:5px;flex:1;min-width:88px;color:var(--muted)}
+.lap-window-range select{width:100%;min-height:44px;padding:5px 9px;background:#20212b;color:var(--white);border:1px solid #515463;border-radius:4px}
+.lap-window-actions button{border:1px solid #515463;border-radius:4px;min-height:44px;padding:6px 12px}
+.lap-window-actions button:hover:not(:disabled){border-color:#91c7ff}
+.lap-window-actions button:disabled{opacity:.4}
+.lap-comparison{color:#91c7ff;font-weight:700;margin:10px 0}

@@ -12,11 +12,20 @@ const paceTime=(sample,includeAll)=>sample?.timeMs>0&&(includeAll||sample.eligib
 export function paceAt(driver,lap,includeAll=false){
  return paceTime(driver.lapTimes.find(p=>p.lap===lap),includeAll);
 }
-export function paceRange(drivers,includeAll=false){
- const samples=drivers.flatMap(d=>d.lapTimes.map(sample=>paceTime(sample,includeAll)).filter(value=>value!==null));
+export function paceRange(drivers,includeAll=false,window={start:0,end:Infinity}){
+ const samples=drivers.flatMap(d=>d.lapTimes
+  .filter(sample=>sample.lap>=window.start&&sample.lap<=window.end)
+  .map(sample=>paceTime(sample,includeAll)).filter(value=>value!==null));
  if(!samples.length)return null;
- const minimum=Math.min(...samples),maximum=Math.max(...samples),padding=Math.max(500,(maximum-minimum)*.12);
- return {min:Math.floor((minimum-padding)/500)*500,max:Math.ceil((maximum+padding)/500)*500};
+ const minimum=Math.min(...samples),maximum=Math.max(...samples),padding=Math.max(50,(maximum-minimum)*.12);
+ return {min:Math.floor(minimum-padding),max:Math.ceil(maximum+padding)};
+}
+export function zoomLapRange(window,totalLaps,lap,factor){
+ const size=window.end-window.start+1;
+ const nextSize=Math.min(totalLaps+1,Math.max(2,Math.round(size*factor)));
+ const anchor=(lap-window.start)/Math.max(1,size-1);
+ const start=Math.min(totalLaps-nextSize+1,Math.max(0,Math.round(lap-anchor*(nextSize-1))));
+ return {start,end:start+nextSize-1};
 }
 export function teamEconomy(drivers,prices,budget){
  return [...new Set(drivers.map(d=>d.team))].map(name=>{

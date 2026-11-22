@@ -1,9 +1,9 @@
 import {analysis as madrid} from './analysis-data.js?v=32';
 import {analysis as baku} from './baku-data.js?v=33';
 import {league as L} from '../data.js?v=33';
-import {estimate,positionAt,pathSegments,paceAt,paceRange} from './model.js?v=32';
+import {estimate,positionAt,pathSegments,paceAt,paceRange,zoomLapRange} from './model.js?v=34';
 import {economy as E} from './economy.js?v=4';
-import {overviewView,dayView,budgetView,budgetResultView} from './views.js?v=32';
+import {overviewView,dayView,budgetView,budgetResultView} from './views.js?v=34';
 import {siteConfig} from './site-config.js?v=4';
 import {timelineView,timelineRows,filterTimeline} from './performance-views.js?v=29';
 const A=new URLSearchParams(location.search).get('round')==='10'?madrid:baku;
@@ -21,6 +21,7 @@ const partNames={front_left_wing:'Ön kanat · sol',front_right_wing:'Ön kanat 
 const colourLabels={green:'Artış gözlenmedi',orange:'Tek araçta artış',red:'İki araçta artış',grey:'Belirsiz / eksik'};
 const tyre=id=>({16:'S · Yumuşak',17:'M · Orta',18:'H · Sert',7:'I · Geçiş',8:'W · Islak'}[id]||'Bileşik '+(id??'bilinmiyor'));
 let view='overview',selected=A.dayDriver.id,comparison=A.drivers.find(d=>d.id!==A.dayDriver.id).id,lap=A.totalLaps,contactColour='all',contactPilot='all',chartMode='position',timelineKind='highlights',timelinePilot='all',pendingChartFocus=false;
+let chartWindow={start:0,end:A.totalLaps};
 let prices={...E.prices}, resizeObserver;
 const pilotOptions=(value,all=false)=>(all?'<option value="all">Tüm pilotlar</option>':'')+A.drivers.map(d=>`<option value="${d.id}" ${String(d.id)===String(value)?'selected':''}>${h(d.name)}</option>`).join('');
 const pilotCell=d=>`<div class="pilot-cell"><img src="${full(team(d.team).logo)}" alt="${h(d.team)}"><div><button data-driver="${d.id}">${h(d.name)}</button><small>${h(d.team)}</small></div></div>`;
@@ -32,6 +33,20 @@ function timeline(){return timelineView(viewContext());}
 function updateTimeline(){const context=viewContext();$('#timeline-events').innerHTML=timelineRows(context);$('#timeline-count').textContent=filterTimeline(A.timeline,timelineKind,timelinePilot).length+' / '+A.timeline.length+' olay';}
 function day(){return dayView(viewContext());}
 function overview(){return overviewView(viewContext());}
+
+function revealLap(target){
+ lap=target;
+ if(lap>=chartWindow.start&&lap<=chartWindow.end)return;
+ const span=chartWindow.end-chartWindow.start;
+ const start=Math.min(A.totalLaps-span,Math.max(0,lap-Math.floor(span/2)));
+ chartWindow={start,end:start+span};
+}
+
+function setChartWindow(window){
+ chartWindow=window;
+ lap=Math.min(window.end,Math.max(window.start,lap));
+ drawChart();
+}
 
 function lapTable(d){
  const samples=new Map(d.lapTimes.map(sample=>[sample.lap,sample]));
@@ -52,22 +67,44 @@ function drawChart(){
  const box=$('#position-chart');if(!box)return;
  const ds=[driver(selected),...(selected===comparison?[]:[driver(comparison)])];
  const isPace=chartMode!=='position',includeAll=chartMode==='all';
- const w=Math.max(270,box.clientWidth),height=320,left=isPace?67:38,right=15,top=16,bottom=35,plotW=w-left-right,plotH=height-top-bottom;
- const range=isPace?paceRange(ds,includeAll):null,colours=['#ff5c70','#91c7ff'];
+ const {start,end}=chartWindow,span=end-start;
+ const slider=$('#lap-select');
+ $('#lap-window-start').value=String(start);
+ $('#lap-window-end').value=String(end);
+ slider.min=String(start);
+ slider.max=String(end);
+ slider.value=String(lap);
+ slider.disabled=span===0;
+ $('[data-chart-zoom=in]').disabled=span<=1;
+ $('[data-chart-zoom=out]').disabled=span===A.totalLaps;
+ const w=Math.max(270,box.clientWidth),height=320,left=isPace?76:38,right=15,top=16,bottom=35,plotW=w-left-right,plotH=height-top-bottom;
+ const range=isPace?paceRange(ds,includeAll,chartWindow):null,colours=['#ff5c70','#91c7ff'];
  const valueAt=(d,l)=>isPace?paceAt(d,l,includeAll):positionAt(d,l);
- const x=v=>left+v/A.totalLaps*plotW,y=v=>isPace?top+(v-range.min)/(range.max-range.min)*plotH:top+(v-1)/(A.driverCount-1)*plotH;
- const axisTime=v=>Math.floor(v/60000)+':'+(v/1000%60).toFixed(1).padStart(4,'0');
+ const x=v=>left+(span===0?.5:(v-start)/span)*plotW;
+ const y=v=>isPace?top+(v-range.min)/(range.max-range.min)*plotH:top+(v-1)/Math.max(1,A.driverCount-1)*plotH;
+ const spread=range?range.max-range.min:0;
+ const precision=spread<400?3:spread<2000?2:1;
+ const rounding=10**(3-precision);
+ const axisTime=v=>{
+  const label=ms(Math.round(v/rounding)*rounding);
+  return label.slice(0,label.length-3+precision);
+ };
  if(isPace&&!range)box.innerHTML=includeAll
-  ?'<div class="chart-empty">Seçili pilotlar için kaydedilmiş tur süresi yok.</div>'
-  :'<div class="chart-empty">Seçili pilotlar için temiz tempo örneği yok. Tüm tur süreleri seçeneğinde kaydedilen turları görebilirsin.</div>';
+  ?'<div class="chart-empty">Bu aralıkta seçili pilotlar için kaydedilmiş tur süresi yok.</div>'
+  :'<div class="chart-empty">Bu aralıkta temiz tempo örneği yok. Tüm tur süreleri seçeneğinde kaydedilen turları görebilirsin.</div>';
  else{
   let svg=`<svg viewBox="0 0 ${w} ${height}" aria-hidden="true"><defs><clipPath id="plot-clip"><rect x="${left-5}" y="${top-5}" width="${plotW+10}" height="${plotH+10}"/></clipPath></defs>`;
   const ticks=isPace?Array.from({length:5},(_,i)=>range.min+(range.max-range.min)*i/4):Array.from({length:Math.ceil(A.driverCount/2)},(_,i)=>1+i*2);
   for(const p of ticks)svg+=`<line x1="${left}" x2="${w-right}" y1="${y(p)}" y2="${y(p)}" stroke="#363845"/><text class="axis" x="${left-9}" y="${y(p)+5}" text-anchor="end">${isPace?axisTime(p):'P'+p}</text>`;
-  for(const l of [0,5,10,15,20,25,A.totalLaps]){if(w<380&&l===25)continue;svg+=`<text class="axis" x="${x(l)}" y="${height-8}" text-anchor="${l===A.totalLaps?'end':l===0?'start':'middle'}">${l===0?'Start':l}</text>`;}
+  const tickCount=Math.min(span+1,Math.max(2,Math.floor(plotW/45)));
+  for(let i=0;i<tickCount;i++){
+   const l=start+Math.round(i*span/Math.max(1,tickCount-1));
+   const anchor=span===0?'middle':l===start?'start':l===end?'end':'middle';
+   svg+=`<text class="axis" x="${x(l)}" y="${height-8}" text-anchor="${anchor}">${l===0?'Start':l}</text>`;
+  }
   svg+=`<line x1="${x(lap)}" x2="${x(lap)}" y1="${top}" y2="${height-bottom}" stroke="#85899b" stroke-dasharray="3 4"/><g clip-path="url(#plot-clip)">`;
   ds.forEach((d,i)=>{
-   const points=Array.from({length:A.totalLaps+1},(_,l)=>{const value=valueAt(d,l);return value==null?null:{x:x(l),y:y(value),outside:includeAll&&paceAt(d,l)===null};});
+   const points=Array.from({length:span+1},(_,offset)=>{const l=start+offset,value=valueAt(d,l);return value==null?null:{x:x(l),y:y(value),outside:includeAll&&paceAt(d,l)===null};});
    for(const segment of pathSegments(points))svg+=`<path d="${segment.map((p,j)=>(j?'L':'M')+p.x.toFixed(2)+','+p.y.toFixed(2)).join(' ')}" stroke="${colours[i]}" stroke-width="2.5" fill="none" stroke-linejoin="round"/>`;
    for(const point of points.filter(Boolean))svg+=`<circle cx="${point.x}" cy="${point.y}" r="${point.outside?3:2.3}" fill="${point.outside?'#191a22':colours[i]}" stroke="${colours[i]}"/>`;
    const value=valueAt(d,lap);if(value!=null)svg+=`<circle cx="${x(lap)}" cy="${y(value)}" r="5" fill="${colours[i]}" stroke="#191a22" stroke-width="2"/>`;
@@ -85,6 +122,14 @@ function drawChart(){
   const context=isPace&&sample&&!sample.eligible?(sample.exclusions?.join(' · ')||'Temiz tempo dışında'):'';
   return `<div><span>${h(d.name)}</span><b>${text}</b>${context?'<small>'+h(context)+'</small>':''}</div>`;
  }).join('');
+ const difference=$('#lap-comparison');
+ const times=isPace&&ds.length===2?ds.map(d=>valueAt(d,lap)):[null,null];
+ difference.hidden=times.some(time=>time===null);
+ if(!difference.hidden){
+  const gap=times[0]-times[1];
+  difference.textContent=gap===0?'Bu turda iki pilotun süresi eşit.':
+   ds[gap<0?0:1].name+' bu tur '+(Math.abs(gap)/1000).toFixed(3).replace('.',',')+' sn daha hızlı.';
+ }
  $('#chart-note').textContent=includeAll?'Boş halkalar temiz tempo hesabının dışında kalan kayıtları gösterir. Eksik turlar grafikte boş kalır.'
   :isPace?'Grafik yalnız temiz tempo örneklerini çizer. Tur seçtiğinde kayıtlı süre ve varsa filtre nedeni aşağıda görünür.'
   :'Çizgiler kaydedilmiş pozisyonları gösterir. Eksik turlar bağlanmaz ve DNF sonrası uzatılmaz. Bu grafik atak sayısı değildir.';
@@ -117,6 +162,14 @@ function render(){
 function updateContactCount(){const count=A.contacts.filter(c=>(contactColour==='all'||c.colour===contactColour)&&(contactPilot==='all'||c.car1===Number(contactPilot)||c.car2===Number(contactPilot))).length;$('#contact-count').textContent=count+' / '+A.contacts.length+' temas';}
 function openDriver(id){const d=driver(id),p=person(d.name);$('#dialog-content').innerHTML=`<div class="dialog-title"><img src="${full(p.portrait)}" alt="${h(d.name)} için temsilî ${h(p.representative)} portresi"><div><p class="eyebrow">${h(A.track.toLocaleUpperCase('tr'))} · YARIŞ DEĞERLENDİRMESİ</p><h2 id="dialog-title">${h(d.name)}</h2><span class="muted">${h(d.team)}</span></div></div><div class="leader-score">${d.rating==null?'Bekliyor':d.rating.toFixed(1).replace('.',',')+' <small>/ 10</small>'}</div><p>${h(d.ratingReason)}</p><div class="data-grid"><div class="datum"><small>Start / finiş</small><strong>P${d.grid} / ${resultLabel(d)}</strong></div><div class="datum"><small>Sıralama</small><strong>P${d.qualifyingPosition}</strong></div><div class="datum"><small>Yarış puanı</small><strong>${d.points}</strong></div><div class="datum"><small>En iyi tur</small><strong>${ms(d.bestLapMs)}</strong></div><div class="datum"><small>Filtrelenmiş medyan</small><strong>${ms(d.paceMedianMs)}</strong><p class="note">${d.paceSamples} tur örneği</p></div><div class="datum"><small>Sonuç ekranı pit</small><strong>${d.pitStops}</strong></div></div><p class="fine-line">Görsel temsilî F1 pilotudur. Reyting FPL performans değerlendirmesidir; temas sayısı veya hasar verisinin paylaşılmaması tek başına puan kesintisi değildir. Farklı yakıt, lastik ve trafik koşulları tamamen ayrıştırılmadı.</p><a class="source-link" href="${siteConfig.leagueBase}#pilot/${h(p.id)}">Pilot profili</a>`;$('#driver-dialog').showModal();}
 document.addEventListener('change',e=>{
+ if(e.target.id==='lap-window-start'){
+  const start=Number(e.target.value);
+  setChartWindow({start,end:Math.max(chartWindow.end,start)});
+ }
+ if(e.target.id==='lap-window-end'){
+  const end=Number(e.target.value);
+  setChartWindow({start:Math.min(chartWindow.start,end),end});
+ }
  if(e.target.id==='timeline-kind'){timelineKind=e.target.value;updateTimeline();}if(e.target.id==='timeline-pilot'){timelinePilot=e.target.value;updateTimeline();}if(e.target.id==='pilot-select'){selected=Number(e.target.value);$('#driver-detail').innerHTML=driverDetail(driver(selected));drawChart();}
  if(e.target.id==='comparison-select'){comparison=Number(e.target.value);drawChart();}
  if(e.target.id==='contact-pilot'){contactPilot=e.target.value;$('#contact-results').innerHTML=contactResults();updateContactCount();}
@@ -127,7 +180,46 @@ document.addEventListener('input',e=>{
  if(e.target.id==='lap-select'){lap=Number(e.target.value);drawChart();}
  if(e.target.dataset.price){const key=e.target.dataset.price,value=Number(e.target.value);if(e.target.value===''||!Number.isFinite(value)||value<0||value>1000000000)return;prices[key]=value;$('#budget-result').innerHTML=budgetResult();$('#announcer').textContent='Sanal hasar karşılıkları yeni fiyatla güncellendi.';}
 });
-document.addEventListener('click',e=>{const jump=e.target.closest('[data-timeline-jump]');if(jump){lap=Math.min(A.totalLaps,Math.max(0,Number(jump.dataset.timelineJump)));if(jump.dataset.timelineDriver!=null)selected=Number(jump.dataset.timelineDriver);chartMode='position';pendingChartFocus=true;location.hash='overview';}const lapButton=e.target.closest('[data-lap-time]');if(lapButton){lap=Number(lapButton.dataset.lapTime);chartMode='all';const slider=$('#lap-select');slider.value=String(lap);drawChart();slider.focus({preventScroll:true});$('#position-chart').scrollIntoView({block:'center'});}const mode=e.target.closest('[data-chart-mode]');if(mode){chartMode=mode.dataset.chartMode;drawChart();}if(e.target.closest('[data-reset-prices]')){prices={...E.prices};document.querySelectorAll('[data-price]').forEach(input=>input.value=prices[input.dataset.price]);$('#budget-result').innerHTML=budgetResult();$('#announcer').textContent='Lig tarifesi geri yüklendi.';}const b=e.target.closest('[data-driver]');if(b)openDriver(b.dataset.driver);if(e.target.closest('.close-dialog'))$('#driver-dialog').close();});
+document.addEventListener('click',e=>{
+ const jump=e.target.closest('[data-timeline-jump]');
+ if(jump){
+  revealLap(Math.min(A.totalLaps,Math.max(0,Number(jump.dataset.timelineJump))));
+  if(jump.dataset.timelineDriver!=null)selected=Number(jump.dataset.timelineDriver);
+  chartMode='position';
+  pendingChartFocus=true;
+  location.hash='overview';
+ }
+ const lapButton=e.target.closest('[data-lap-time]');
+ if(lapButton){
+  revealLap(Number(lapButton.dataset.lapTime));
+  chartMode='all';
+  drawChart();
+  $('#lap-select').focus({preventScroll:true});
+  $('#position-chart').scrollIntoView({block:'center'});
+ }
+ const mode=e.target.closest('[data-chart-mode]');
+ if(mode){
+  chartMode=mode.dataset.chartMode;
+  drawChart();
+ }
+ const zoom=e.target.closest('[data-chart-zoom]')?.dataset.chartZoom;
+ if(zoom==='last'){
+  setChartWindow({start:Math.max(1,A.totalLaps-4),end:A.totalLaps});
+ }else if(zoom==='reset'){
+  setChartWindow({start:0,end:A.totalLaps});
+ }else if(zoom){
+  setChartWindow(zoomLapRange(chartWindow,A.totalLaps,lap,zoom==='in'?.5:2));
+ }
+ if(e.target.closest('[data-reset-prices]')){
+  prices={...E.prices};
+  document.querySelectorAll('[data-price]').forEach(input=>input.value=prices[input.dataset.price]);
+  $('#budget-result').innerHTML=budgetResult();
+  $('#announcer').textContent='Lig tarifesi geri yüklendi.';
+ }
+ const b=e.target.closest('[data-driver]');
+ if(b)openDriver(b.dataset.driver);
+ if(e.target.closest('.close-dialog'))$('#driver-dialog').close();
+});
 $('#driver-dialog').addEventListener('click',e=>{if(e.target===$('#driver-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
 window.addEventListener('hashchange',()=>{if(location.hash==='#main')return;render();if(pendingChartFocus){pendingChartFocus=false;$('#position-chart')?.scrollIntoView?.({block:'center',behavior:'auto'});}else window.scrollTo({top:0,behavior:'auto'});});
 render();
