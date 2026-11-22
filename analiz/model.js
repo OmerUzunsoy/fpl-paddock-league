@@ -8,9 +8,12 @@ export function pathSegments(points){
  for(const p of points){if(p==null){if(segment.length)segments.push(segment);segment=[];}else segment.push(p);}
  if(segment.length)segments.push(segment);return segments;
 }
-export function paceAt(driver,lap){const sample=driver.lapTimes.find(p=>p.lap===lap);return sample?.eligible?sample.timeMs:null;}
-export function paceRange(drivers){
- const samples=drivers.flatMap(d=>d.lapTimes.filter(p=>p.eligible).map(p=>p.timeMs));
+const paceTime=(sample,includeAll)=>sample?.timeMs>0&&(includeAll||sample.eligible)?sample.timeMs:null;
+export function paceAt(driver,lap,includeAll=false){
+ return paceTime(driver.lapTimes.find(p=>p.lap===lap),includeAll);
+}
+export function paceRange(drivers,includeAll=false){
+ const samples=drivers.flatMap(d=>d.lapTimes.map(sample=>paceTime(sample,includeAll)).filter(value=>value!==null));
  if(!samples.length)return null;
  const minimum=Math.min(...samples),maximum=Math.max(...samples),padding=Math.max(500,(maximum-minimum)*.12);
  return {min:Math.floor((minimum-padding)/500)*500,max:Math.ceil((maximum+padding)/500)*500};
