@@ -1,0 +1,18 @@
+export function filterTimeline(events,kind='highlights',pilot='all'){
+ const highlights=new Set(['start','neutralisation','retirement','fastest','finish']);
+ return events.filter(e=>(kind==='all'||kind==='highlights'&&highlights.has(e.kind)||e.kind===kind)&&(pilot==='all'||e.carId==null||e.carId===Number(pilot)||e.otherCarId===Number(pilot)));
+}
+export function timelineView(c){
+ const {A,heading,timelineKind,timelinePilot,pilotOptions}=c;
+ const deployed=A.timeline.filter(e=>e.kind==='neutralisation'&&e.state==='deployed');
+ return heading('MADRİD · YARIŞIN ZAMAN ÇİZELGESİ','TUR TUR NELER OLDU?','Pit girişleri, SC/VSC, temaslar ve en hızlı tur. Bir olayı seçip ilgili turu pozisyon grafiğinde açabilirsin.')+`<div class="metric-grid"><article class="metric"><span class="label">Nötralizasyon</span><strong>${deployed.filter(e=>e.neutralisation==='Safety Car').length} SC · ${deployed.filter(e=>e.neutralisation==='VSC').length} VSC</strong><small>Oyun olay paketinden</small></article><article class="metric"><span class="label">Gözlenen pit girişi</span><strong>${A.timeline.filter(e=>e.kind==='pit').length}</strong><small>Sonuç ekranı toplamından farklı olabilir</small></article><article class="metric"><span class="label">Temas kaydı</span><strong>${A.contacts.length}</strong><small>Kusur veya otomatik ceza değildir</small></article><article class="metric"><span class="label">Kesin sonuçta DNF</span><strong>${A.drivers.filter(d=>d.status==='DNF').length} pilot</strong><small>Çelişkili erken bildirimler ayıklandı</small></article></div><div class="filters"><label>Olay türü<select id="timeline-kind">${[['highlights','Yarışın özeti'],['all','Tüm olaylar'],['neutralisation','SC / VSC'],['pit','Pit girişleri'],['contact','Temaslar'],['retirement','Yarış dışı bildirimleri'],['fastest','En hızlı tur']].map(([v,t])=>`<option value="${v}" ${timelineKind===v?'selected':''}>${t}</option>`).join('')}</select></label><label>Pilot<select id="timeline-pilot">${pilotOptions(timelinePilot,true)}</select></label><span class="count-label" id="timeline-count"></span></div><p class="timeline-clock-note">Saatler kaydın oturum zamanıdır; resmî yarış süresinden farklı olabilir. SC/VSC ve bayraklarda “~” işaretli tur yaklaşık lider turudur. Pilot filtresinde genel yarış olayları görünmeye devam eder.</p><section class="race-timeline" id="timeline-events">${timelineRows(c)}</section>`;
+}
+export function timelineRows(c){
+ const {A,h,timelineKind,timelinePilot}=c;
+ const labels={start:'START',pit:'PİT',neutralisation:'SC / VSC',contact:'TEMAS',retirement:'DNF BİLDİRİMİ',fastest:'HIZLI TUR',finish:'DAMALI BAYRAK'};
+ const events=filterTimeline(A.timeline,timelineKind,timelinePilot);
+ return events.map(e=>{
+  const chosen=timelinePilot!=='all'&&(e.carId===Number(timelinePilot)||e.otherCarId===Number(timelinePilot))?Number(timelinePilot):e.carId;
+  return `<article class="timeline-event timeline-${e.kind}"><div class="timeline-clock"><strong>${Math.floor(e.seconds/60)}:${String(Math.floor(e.seconds)%60).padStart(2,'0')}</strong><span>${e.phase==='finish'?'Finiş evresi':e.lap==null?'Tur bilinmiyor':(e.lapApprox?'~ ':'')+'Tur '+e.lap}</span></div><div class="timeline-event-body"><span class="timeline-kind ${e.colour||''}">${labels[e.kind]}</span><h2>${h(e.title)}</h2><p>${h(e.detail)}</p>${e.incomplete?'<small class="orange">Pit çıkışı eksik gözlendi.</small>':''}${e.lap!=null?`<button class="source-link" data-timeline-jump="${e.lap}" ${chosen!=null?'data-timeline-driver="'+chosen+'"':''}>${e.lapApprox?'Yaklaşık turu':'Bu turu'} grafikte aç</button>`:''}</div></article>`;
+ }).join('')||'<div class="empty">Bu filtrede kaydedilmiş olay yok.</div>';
+}

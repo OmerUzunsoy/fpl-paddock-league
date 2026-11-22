@@ -1,0 +1,701 @@
+FORMULA PADDOCK LEAGUE - SPORTİF YÖNETMELİK ve CEZA KİTAPÇIĞI
+
+MADDE 1 - YÖNETMENLİĞİN KAPSAMI:
+1.1. Genel Hükümler:
+FPL yarışlarında temel referans FIA Formula 1 Sportif Yönetmeliği ve FIA Driving Standards Guidelines olacaktır.
+ 
+F1 25 oyununun sunduğu fizik, hasar, pist, bayrak ve ceza mekanizmaları dikkate alınacaktır.
+
+Oyunun verdiği cezalar kesin ve tartışılmaz karar olarak kabul edilmeyecektir.
+ 
+Her pilot, oyunun verdiği hatalı cezaya karşı hakem kuruluna başvurabilir.
+ 
+Oyun tarafından cezalandırılmayan bir ihlal de hakemler tarafından cezalandırılabilir.
+
+Hakem kurulu, yarış sonuçlarını inceleme ve gerektiğinde yeniden düzenleme yetkisine sahiptir.
+
+Pilotlar yarış içerisinde diğer pilotların güvenliğini ve sportif haklarını korumakla yükümlüdür.
+
+Her pilot bu yönetmeliği bilmek ve uygulamakla sorumludur.
+
+
+1.2. Oyunun yetki sınırları:
+F1 25'in otomatik ceza sistemi aşağıdaki konularda tek başına nihai karar mercii değildir:
+-> Çarpışma sorumluluğu.
+-> Rakibi pist dışına zorlama.
+-> Hatalı pist sınırı cezası.
+-> Güvenlik aracı altında ihlal.
+-> Tehlikeli savunma.
+-> Hatalı sollama.
+-> Sıralama turlarında engelleme.
+-> Kasıtlı temas.
+-> Sportmenlik dışı hareket.
+Bu konularda hakem kurulu son kararı verir.
+
+MADDE 2 - FPL CEZA KADEMELERİ:
+2.1 Uyarı (Warning):
+Pilotun yaptığı ihlalin hafif olduğu, ciddi bir avantaj veya tehlike yaratmadığı durumlarda uygulanır.
+Örnekler:
+-> İlk kez yapılan küçük pist sınırı ihlali.
+-> Yarış çizgisinde küçük ve tehlikesiz hata.
+-> Rakibin yarışını etkilemeyen küçük temas.
+-> İlk kez yapılan hafif sportmenlik ihlali.
+Uyarı, pilotun disiplin kaydına işlenir ve uyarı doğrudan şampiyona puanını etkilemez.
+
+
+2.2. Resmî kınama (Reprimand):
+Uyarıdan daha ciddi yaptırımdır.
+Örnekler:
+-> Tekrarlanan küçük ihlaller.
+-> Gereksiz tehlikeli sürüş.
+-> Yarış düzenini bozacak hareketler.
+-> Hakem talimatlarına uymama.
+Bir sezonda 5 resmî kınama alan pilot, bunların en az 4'ü sürüş ihlali kaynaklıysa sonraki yarışta 10 sıra grid cezası alır. Bu sistem FIA'nın ilgili reprimand uygulamasına dayanır.
+
+2.3. Zaman cezası (Time Penalty):
+Oyunun verdiği cezalar doğru ise oyun cezası korunur.
+Hakem kurulu sonradan ceza verirse aşağıdaki süreler uygulanır:
+Ceza -> Kullanım alanı şeklinde yazılmıştır.
+-> +5 Saniye -> Hafif ihlal
+-> +10 Saniye -> Normal hafif ihlal
+-> +15 Saniye -> Belirgin avantaj veya tehlikeli hareket
+-> +20 saniye -> Ağır ihlal
+-> +30 saniye -> Çok ağır ihlal
+-> +40 saniye -> istisnai derecede ağır ihlal
+-> +60 saniye -> Çok ciddi sportif ihlal
+Bu süreler yarışın tamamlanma süresine eklenir. Pilot yarışı 35:42.500 sürede bitirmiş ve hakem kurulu 10 saniye ceza verirse, yeni resmi derecesi 35:52.500 olur. Bu süre pilotun şampiyona sıralamasında geriye düşmesine sebep olabilir.
+
+2.4. Grid cezası (Grid Penalty):
+Hakemlerin yarış sonrasında verdiği ve mevcut yarışta uygulanması mümkün olmayan yaptırımdır.
+Grid Cezası -> Uygulama şeklinde yazılmıştır.
+-> 3 sıra -> Hafif-orta ihlal
+-> 5 sıra -> Orta ihlal
+-> 10 sıra -> Ağır ihlal
+-> 15 sıra -> Çok ağır ihlal
+-> 20 sıra -> İstisnai ihlal
+-> Pit  Lane Start -> Çok ağır sportif yaptırım
+-> Yarışa katılım yasağı -> En ağır yaptırım
+Grid cezası, pilotun bir sonraki katılacağı Grand Prix'nin start pozisyonuna uygulanır.
+
+2.5. Şampiyona puanı silme (Championship Points Deduction):
+Bu yaptırım, normal zaman cezasının veya grid cezasının yeterli olmadığı durumlarda kullanılır.
+Puan silme -> Kullanım şeklinde yazılmıştır.
+-> -1 puan -> Hafif disiplin ihlali
+-> -2 puan -> Tekrarlanan ihlal
+-> -3 puan -> Ciddi sportif ihlal
+-> -5 puan -> Ağır ihlal
+-> -10 puan -> Çok ağır ihlal
+-> Tüm yarış puanlarının silinmesi -> Yarış diskalifiyesi
+-> Daha önce kazanılmış puanların silinmesi -> Şampiyona manipülasyonu veya ağır disiplin ihlali
+Bu yaptırım pilotlar klasmanına uygulanabilir. Takımın sportif sorumluluğu varsa takımlar klasmanına da ayrıca yaptırım uygulanabilir. 
+2.6. Diskalifiye (DSQ):
+Pilot ilgili yarıştan diskalifiye edilir.
+-> Yarış puanı kazanamaz.
+-> Yarış klasmanında sıralaması silinir.
+-> En hızlı tur puanı alamaz.
+-> İlgili yarışın resmi sonucunda DSQ olarak gösterilir.
+Diskalifiye edilen pilotun diğer pilotlara verdiği zarar ayrıca incelenebilir.
+
+2.7. Yarıştan men (Race Ban):
+Pilotun bir sonraki Grand Prix'ye katılması yasaklanır.
+Bu ceza:
+-> Kasıtlı çarpışma.
+-> Bilerek rakibi yarış dışı bırakma.
+-> Tekrarlanan ağır sportmenlik ihlali.
+-> Hakem kararlarını sürekli ihlal etme.
+-> Çok tehlikeli sürüş.
+-> Ceza puanı sınırına ulaşma.
+gibi durumlarda uygulanabilir.
+Pilotun yarıştan men edildiği yarışta yerine başka bir pilotun geçmesi, ancak lig yönetiminin önceden belirlediği yedek pilot prosedürüyle mümkündür.
+
+MADDE 3 - PİST SINIRLARI (TRACK LIMITS):
+3.1. Temel Kural:
+F1 25'te pist sınırları oyun tarafından takip edilir. Ancak oyun sisteminin verdiği ihlaller hakem incelemesine açıktır.
+Pilot:
+-> Pist sınırlarını korumalıdır.
+-> Pist dışında avantaj elde etmemelidir.
+-> Pist dışına çıkarak rakibini geçmemelidir.
+-> Pist dışına çıkarak pozisyonunu korumamalıdır.
+-> Pist dışına çıktıktan sonra tehlikeli biçimde geri dönmemelidir.
+
+3.2. İhlal türleri ve cezalar:
+İhlal -> FPL yaptırımı şeklinde yazılmıştır.
+-> İlk hafif ihlal -> Uyarı
+-> Tekrarlanan ihlal ->  Resmi kınama
+-> Pist dışına çıkarak zaman kazanma -> +5 saniye
+-> Pist dışına çıkarak pozisyon kazanma -> +10 saniye
+-> Pist dışına çıkarak pozisyon koruma -> +10 saniye 
+-> Rakibi pist dışına zorlayarak avantaj kazanma -> +10 / +15 saniye
+-> Tehlikeli biçimde piste geri dönme -> +10 / +20 saniye
+-> Kasıtlı olarak pist dışından yarışma -> +20 / +30 saniye
+-> Tekrarlanan ağır ihlal -> Grid cezası
+3.3. İstisnalar
+Aşağıdaki durumlarda pilot otomatik olarak cezalandırılmaz:
+-> Çarpışmadan kaçınmak için pist dışına çıkması.
+-> Kontrol kaybı yaşaması.
+-> Başka bir pilot tarafından pist dışına zorlanması.
+-> Oyunun hatalı pist sınırı algılaması.
+-> Pist üzerindeki bir engelden kaçması.
+Hakemler olayın videosunu inceler.
+
+3.4. Oyunun hatalı Track Limits cezası:
+F1 25 tarafından verilen pist sınırı cezası incelendiğinde pilotun herhangi bir avantaj kazanmadığı veya pist sınırını ihlal etmediği anlaşılırsa ceza iptal edilir.
+İptal edilen ceza pilotun yarış süresine eklenmez ve oyunun ceza puanı veya uyarı kaydı da mümkün olduğu ölçüde resmî lig kaydından çıkarılır.
+
+MADDE 4 - ATAK ve SAVUNMA KURALLARI
+4.1. Atak yapan pilotun sorumlulukları:
+Pilot, rakibini geçmeye çalışırken:
+-> Aracını kontrol altında tutmalıdır.
+-> Rakibinin aracını dikkate almalıdır.
+-> Frenaj noktasına uygun hareket etmelidir.
+-> Rakibinin yarış çizgisini tehlikeye atmamalıdır.
+-> Virajı pist sınırları içinde tamamlamalıdır.
+İç taraftan atak yapan pilotun ön aksı, apeks öncesinde rakibinin aynası hizasına ulaşmış olmalıdır.
+Dış taraftan atak yapan pilotun ise apeks noktasında ön aksı rakibinin ön aksının önünde olmalıdır.
+Bunlar otomatik pozisyon kazanma garantisi değildir; aracın kontrolü ve virajı tamamlayabilmesi de değerlendirilir.
+
+4.2. Savunma yapan pilotun sorumlulukları:
+-> Birden fazla yön değiştirerek rakibi engelleyemez.
+-> Frenaj bölgesinde ani hareket yapamaz.
+-> Rakibini pist dışına itemez.
+-> Rakibin aracına kasıtlı olarak temas edemez.
+-> Tehlikeli biçimde kapı kapatamaz.
+-> Rakibin frenaj noktasını tehlikeye atamaz.
+
+4.3. Atak ve savunma ceza tablosu:
+-> İhlal -> Ceza şeklinde yazılmıştır.
+-> Hafif blokaj -> Uyarı
+-> Birden fazla yön değiştirme -> +5 saniye
+-> Frenajda ani yön değiştirme -> +10 saniye
+-> Rakibi pist dışına zorlama -> +10 saniye 
+-> Rakibi tehlikeli şekilde sıkıştırma -> +10 / +15 saniye
+-> Kasıtlı blokaj -> +20 saniye
+-> Kasıtlı olarak rakibin aracına temas -> +20 / +30 saniye
+-> Tekrarlanan tehlikeli savunma -> 5 sıra grid cezası
+
+4.4. Şikan ve S virajları:
+Şikanlarda ilk virajdaki pozisyon, ikinci virajdaki pozisyon ve araçların birbirine göre konumu beraber değerlendirilir.
+Pilot, ilk virajda rakibini dışarı iterek ikinci virajda pozisyon kazanamaz.
+Rakibin aracına yeterli alan bırakılmalıdır.
+
+MADDE 5 - ÇARPIŞMALAR ve TEMASLAR: 
+
+5.1. Yarış kazası (Racing Incident):
+Aşağıdaki durumlarda ceza verilmeyebilir:
+-> İki pilotun da yarış çizgisinde bulunması.
+-> Temasın kaçınılmaz olması.
+-> Her iki pilotun da kontrol kaybı yaşaması.
+-> Olayda belirgin bir kusurlu pilot bulunmaması.
+-> Temasın küçük olması ve sportif avantaj doğurmaması.
+Hakem kurulu olayı Racing Incident olarak kapatır.
+
+5.2. Çarpışma cezaları:
+İhlal -> Ceza şeklinde yazılmıştır.
+-> Hafif temas, avantaj yok -> Ceza yok / uyarı
+-> Rakibe küçük hasar veren kusurlu temas -> +5 saniye
+-> Rakibin yarışını olumsuz etkileyen temas -> +10 saniye
+-> Rakibin ciddi hasar almasına neden olma -> +15 / +20 saniye
+-> Rakibin yarış dışı kalmasına sebep olma -> +20 / +30 saniye
+-> Kasıtlı çarpışma -> +30 / +40 saniye ve grid cezası
+-> Birden fazla kasıtlı temas -> DSQ
+->  Kasıtlı olarak rakibi yarış dışı bırakma -> DSQ + sonraki yarıştan men
+
+5.3. Çarpışma sonucu rakibin DNF olması:
+Örnek:
+Pilot A, Pilot B'ye arkadan çarpıyor. Pilot B aracındaki ağır hasar nedeniyle yarışı tamamlayamıyor.
+Hakemler Pilot A'yı kusurlu bulursa:
+-> Pilot A'ya +20 veya +30 saniye cezası verilebilir.
+-> İhlalin ağırlığına göre sonraki yarışta 3 veya 5 sıra grid cezası da uygulanabilir.
+-> Ceza puanı eklenebilir.
+Ancak burada aynı ihlal için hem zaman cezası hem grid cezası otomatik verilmez. İki ceza birlikte verilecekse olayın ağırlığı bunu gerektirmelidir.
+DNF olan pilotun yarış sonucuna süre eklemek mümkün olmadığından, o yarışta ceza alan pilot için grid cezası veya şampiyona puanı yaptırımı kullanılır.
+
+5.4. Arkadan çarpma:
+Arkadan çarpma otomatik olarak suçlu olma anlamına gelmez.
+Hakemler şunları inceler:
+-> Öndeki pilotun frenaj noktası.
+-> Arkadaki pilotun frenaj noktası.
+-> Aradaki mesafe.
+-> Frenleme sırasında yapılan hareketler.
+-> Öndeki pilotun ani ve öngörülemeyen hareketi.
+-> Temasın kaçınılmaz olup olmadığı.
+Öndeki pilotın ani fren yaparak arkadaki aracı tehlikeye sokması da cezaya konu olabilir.
+5.5. Zincirleme kazalar:
+Birden fazla pilotun dahil olduğu kazalarda her pilot ayrı değerlendirilir.
+İlk teması yapan pilot otomatik olarak bütün kazanın sorumlusu kabul edilmez.
+Her aracın hareketi ayrı incelenir.
+
+MADDE 6 - START ve FORMASYON TURU:
+6.1. Start kuralları:
+Pilotlar:
+-> Grid pozisyonlarını korumalıdır.
+-> Start ışıklarını beklemelidir.
+-> Erken hareket etmemelidir.
+-> Başka pilotların startını engellememelidir.
+-> Formasyon turu sırasında gereksiz tehlikeli hareket yapmamalıdır.
+
+6.2. Formasyon turu ihlalleri:
+-> Gereksiz fren yapılmaz.
+-> Başka pilotlara temas edilmez.
+-> Lastik ısıtma hareketleri güvenli şekilde yapılır.
+-> Öndeki araçla gereksiz mesafe açılmaz. 
+-> Start prosedürü ihlal edilmez.
+Ciddi ihlaller +5 ila +15 saniye arasında cezalandırılır.
+
+MADDE 7 – PİT LANE VE PIT STOP KURALLARI
+7.1. Unsafe Release:
+Takımın veya pilotun pit alanından tehlikeli şekilde çıkmasıdır.
+Örnek:
+-> Rakibin üzerine çıkmak.
+-> Pit yolundan sonra başka pilotla çarpışmak.
+-> Başka aracın yolunu tehlikeli şekilde kesmek.
+
+İhlal -> Ceza şeklinde yazılmıştır.
+-> Hafif unsafe release -> +5 saniye
+-> Rakibi tehlikeye sokma -> +10 saniye
+-> Çarpışmaya neden olma -> +15 / +20 saniye
+-> Ağır çarpışma ve DNF -> +20 / +30 saniye ve grid cezası
+
+MADDE 8 – BAYRAKLAR ve GÜVENLİK PROSEDÜRLERİ:
+8.1. Sarı bayrak:
+Sarı bayrak altında pilotlar hızlarını düşürmeli ve sollama yapmamalıdır.
+
+8.2. Mavi bayrak:
+Tur bindirilecek pilot, kendisinden hızlı olan aracın geçişine uygun şekilde izin vermelidir.
+İhlal -> Ceza şeklinde yazılmıştır.
+-> İlk ihlal -> Uyarı
+-> Geçişe sürekli izin vermeme ->     +5 saniye
+-> Rakibi kasıtlı engelleme -> +10 saniye
+-> Kasıtlı tehlikeli blokaj -> +15 saniye ve ceza puanı
+
+MADDE 9 – SAFETY CAR ve VIRTUAL SAFETY CAR: 
+
+9.1. Safety Car:
+Safety Car çıktığında pilotlar:
+-> Sırayı korumalıdır.
+-> Güvenlik aracını geçmemelidir.
+-> Ani fren yapmamalıdır.
+-> Tehlikeli hız değişimleri yapmamalıdır.
+-> Öndeki araçla güvenli mesafeyi korumalıdır.
+-> Yarış kontrolünün talimatlarına uymalıdır.
+
+9.2. Safety Car ihlalleri: 
+İhlal -> Ceza şeklinde yazılmıştır.
+-> Gereksiz hızlanma -> +5 saniye
+-> Gereksiz frenleme -> +5 / +10 saniye
+-> Safety Car altında sollama -> +10 saniye
+-> Zincirleme tehlike oluşturma -> +20 / +30 saniye
+-> Kasıtlı ihlal -> Diskalifiye veya yarıştan men
+
+9.3. Virtual Safety Car:
+VSC altında pilotlar belirlenen delta zamanlarına uymalıdır.
+
+9.4. Oyunun hatalı SC/VSC cezası:
+Oyun, pilotun herhangi bir avantaj elde etmediği veya ihlal yapmadığı bir durumda ceza verirse hakemler cezayı kaldırabilir.
+Hakemler özellikle:
+-> Replay,
+-> Yarış içi konum,
+-> Ön ve arka araçların hareketleri,
+-> Yarış kontrolü mesajları
+üzerinden karar verir.
+
+MADDE 10 - SIRALAM TURLARI (QUALIFYING):
+10.1. Impeding:
+Bir pilotun başka bir pilotun hızlı turunu engellemesidir.
+İhlal -> Ceza şeklinde yazılmıştır.
+-> Hafif engelleme ->     Uyarı
+-> Hızlı turu belirgin şekilde bozma -> Sonraki yarışta 3 sıra grid cezası
+-> Ciddi engelleme -> Sonraki yarışta 5 sıra grid cezası
+-> Kasıtlı engelleme -> Sonraki yarışta 10 sıra grid cezası
+-> Tekrarlanan kasıtlı engelleme ->  Sonraki yarışta sıralama turlarından men 
+
+10.2. Gereksiz yavaşlama:
+Pilotlar hızlı tur atan rakiplerinin önünde gereksiz şekilde yavaşlayamaz.
+
+10.3. Güvenli tur hazırlığı:
+-> Hızlı tur hazırlığı sırasında diğer pilotların yarış çizgisine dikkat edilmelidir.
+-> Pist üzerinde gereksiz bekleme yapılmamalıdır. 
+-> Rakip pilotların önünde ani fren yapılmamalıdır.
+-> Pit çıkışında tehlikeli hareket yapılmamalıdır.
+
+MADDE 11 - DRS, ERS ve YARIŞ STRATEJİSİ:
+11.1. DRS Kullanımı:
+F1 25'te DRS, oyunun izin verdiği bölgelerde ve koşullarda kullanılmalıdır.
+Pilotlar:
+-> DRS aktivasyon bölgelerine uymalıdır.
+-> DRS'yi izin verilmeyen durumlarda kullanmamalıdır.
+-> Rakibin aracına kasıtlı olarak temas ederek avantaj sağlamamalıdır.
+-> Güvenlik prosedürleri sırasında DRS kullanımına ilişkin oyun kısıtlamalarına uymalıdır.
+DRS'nin yanlış kullanılması durumunda, oyunun verdiği ceza öncelikle değerlendirilir. Oyunun hatalı uygulaması söz konusuysa hakemler inceleme yapar.
+
+11.2. ERS kullanımı:
+ERS kullanımı pilotun yarış stratejisinin bir parçasıdır.
+ERS ile ilgili oyun içi enerji yönetimi, batarya kullanımı ve atak stratejileri serbesttir.
+Ancak:
+-> Oyunun açıklarından yararlanmak,
+-> Hileli yazılım veya müdahale kullanmak,
+-> Başka pilotların oyun deneyimini bozacak teknik yöntemler kullanmak
+yasaktır.
+
+11.3. Kasıtlı enerji ve hız manipülasyonu:
+Pilotun rakibinin kazaya karışmasına neden olmak amacıyla kasıtlı şekilde ani yavaşlaması, tehlikeli hareket yapması veya yarışın akışını manipüle etmesi ağır ihlal kabul edilir.
+MADDE 12 - ARAÇ KONTROLÜ ve GÜVENLİ SÜRÜŞ:
+12.1. Genel yükümlülük:
+Her pilot aracını kontrol altında tutmak zorundadır.
+Şu davranışlar yasaktır:
+-> Kasıtlı olarak ters yönde gitmek.
+-> Pist üzerinde durarak rakipleri tehlikeye sokmak.
+-> Kasıtlı fren kontrolüyle rakibe çarpmak.
+-> Kasıtlı olarak rakiplerin yolunu kapatmak.
+-> Yarış içerisinde bilerek kaza yapmak.
+-> Başka pilotların yarışını kasıtlı olarak bozmak.
+
+12.2. Kontrol kaybı:
+Her spin veya pist dışına çıkma cezaya neden olmaz.
+Pilotun kontrol kaybı yaşaması tek başına ihlal değildir.
+Ancak kontrol kaybı sonrasında:
+-> Tehlikeli şekilde piste dönülmesi,
+-> Rakibin yolunun kapatılması,
+-> Bilinçli olarak rakibe çarpılması
+ayrıca değerlendirilir.
+
+12.3. Ters yönde sürüş:
+Ters yönde araç kullanmak kesinlikle yasaktır.
+
+MADDE 13 - YARIŞTAN ÇEKİLME ve DNF:
+13.1. Normal DNF:
+Pilotun:
+-> Araç hasarı,
+-> Mekanik arıza,
+-> Kaza,
+-> Yarışa devam edememe
+nedeniyle yarışı tamamlayamaması tek başına disiplin ihlali değildir.
+
+13.2. Kasıtlı DNF:
+Pilotun bilerek yarıştan çekilmesi veya yarış sonuçlarını etkilemek amacıyla aracını durdurması yasaktır.
+Örnekler:
+-> Rakibin yarışını bozmak için pist üzerinde durmak.
+-> Yarış sonucunu değiştirmek için kasıtlı DNF yapmak.
+-> Takım arkadaşına avantaj sağlamak amacıyla kaza yapmak.
+-> Şampiyona sıralamasını manipüle etmek.
+Ceza:
+-> Diskalifiye.
+-> -5 ila -10 şampiyona puanı.
+-> 5 ila 10 sıra grid cezası.
+-> Ağır durumda yarıştan men.
+
+13.3. İnternet ve bağlantı sorunları:
+Pilotun bağlantısının kopması, oyunun çökmesi veya teknik arıza yaşaması otomatik olarak disiplin cezası değildir.
+Ancak:
+-> Kasıtlı bağlantı kesme,
+-> Sonuçlardan kaçmak amacıyla oyundan çıkma,
+-> Yarışın sonucunu değiştirmek için kasıtlı oturum terk etme
+soruşturma konusu olabilir.
+
+MADDE 14 – TAKIM EMİRLERİ ve TAKIM SORUMLULUĞU:
+FPL'de 11 takım ve her takımda yarış pilotları bulunur. Takımların sportif kararları takım prensipleri tarafından yönetilir.
+Takım emirleri her durumda yasak değildir.
+Serbest olanlar:
+-> Takım arkadaşının geçişine izin vermek.
+-> Yarış stratejisi belirlemek.
+-> Lastik ve pit stratejisi paylaşmak.
+-> Şampiyona hedefi doğrultusunda takım içi koordinasyon sağlamak.
+-> Yarışta pozisyon değişimi istemek.
+Yasak olanlar:
+-> Kasıtlı çarpışma talimatı vermek.
+-> Rakip takımların yarışını manipüle etmek.
+-> Başka pilotların kasıtlı olarak yarış dışı bırakılmasını istemek.
+-> Takım emriyle güvenliği tehlikeye atmak.
+
+14.1. Takım sorumluluğu:
+Takım prensibi, pilotunun yaptığı her ihlalden otomatik olarak sorumlu tutulmaz.
+Ancak takım yönetiminin ihlali yönlendirdiği veya bilerek desteklediği kanıtlanırsa takım da yaptırım alabilir.
+Takım ihlali -> Yaptırım şeklinde yazılmıştır.
+-> Küçük prosedür ihlali -> Resmi uyarı
+-> Tekrarlanan ihlal -> -1 takım puanı
+-> Sportif manipülasyon -> -3 / -5 takım puanı
+-> Kasıtlı yarış manipülasyonu ->     -10 takım puanı
+-> Ağır ve organize ihlal -> Takımlar klasmanından diskalifiye
+
+MADDE 15 - CEZA PUANI SİSTEMİ:
+FPL, FIA'nın Süper Lisans ceza puanı sistemini lig içinde kullanacaktır.
+Ancak burada gerçek FIA Süper Lisansı değil, FPL pilot disiplin puanı söz konusudur.
+
+15.1. Puan tablosu:
+İhlal -> Ceza Puanı şeklinde yazılmıştır.
+-> Hafif çarpışma -> 0-1
+-> Normal çarpışma -> 1-2
+-> Ağır çarpışma -> 2-3
+-> Kasıtlı çarpışma -> 4
+-> Rakibi tehlikeli şekilde pist dışına zorlama -> 2-3
+-> Tehlikeli savunma -> 1-3
+-> Kasıtlı blokaj -> 2-3
+-> Sarı bayrak ihlali -> 1-2
+-> Safety Car altında ciddi ihlal -> 2-3
+-> Kasıtlı ters yönde sürüş -> 3-4
+-> Kasıtlı yarış manipülasyonu -> 4
+Bunlar hakemlerin kullanacağı önerilen puan aralıklarıdır. Her olayda otomatik olarak maksimum puan verilmez.
+15.2. Ceza puanlarının süresi:
+-> Ceza puanları 10 yarış boyunca geçerlidir.
+-> 10 yarışı dolduran puanlar sistemden düşer.
+-> Bir pilot 12 puana ulaşırsa bir sonraki Grand Prix'den men edilir.
+-> Yarış men cezası tamamlandığında pilotun ceza puanları sıfırlanır.
+
+15.3. Ceza puanı ile zaman cezası ilişkisi:
+Ceza puanı, zaman cezasının yerine geçmez.
+Örneğin pilot bir çarpışma nedeniyle 10 saniye cezası ve 2 ceza puanı alabilir.
+Bu iki yaptırım farklı amaçlara hizmet eder:
+-> Zaman cezası, yarış sonucunu düzeltir.
+-> Ceza puanı, pilotun disiplin geçmişini takip eder.
+
+MADDE 16 – SIRALAMA, SPRINT ve GRAND PRIX AYRIMI:
+FPL'de yaptırımlar, ihlalin gerçekleştiği seansa göre uygulanır.
+Seans -> Uygulanabilecek yaptırımlar şeklinde yazılmıştır.
+-> Antrenman -> Uyarı, kınama, ceza puanı, sonraki yarış grid cezası
+-> Sıralama -> Tur silme, grid cezası, kınama, ceza puanı
+-> Sprint -> Zaman cezası, grid cezası, diskalifiye, ceza puanı
+-> Grand Prix -> Zaman cezası, grid cezası, diskalifiye, yarış men, ceza puanı
+
+16.1. Sprint yarışları:
+Sprintte verilen zaman cezaları Sprint'in resmî sonucuna eklenir.
+Sprintte alınan ceza puanları pilotun FPL disiplin puanına eklenir.
+Sprint sırasında alınan grid cezası, hakem kararında açıkça belirtilmedikçe sonraki Grand Prix'ye uygulanır.
+
+16.2. Sıralama cezalarının sonraki yarışa aktarılması:
+Sıralamada alınan grid cezaları ilgili Grand Prix'de uygulanır.
+Pilot sıralama turuna katılmamışsa, grid cezası yine uygulanabilir.
+
+MADDE 17 - OYUNUN OTO VERDİĞİ HATALI CEZALAR:
+F1 25'in oyun motoru bazen:
+-> Rakibin sebep olduğu bir temasta yanlış pilotu cezalandırabilir.
+-> Pist sınırını yanlış algılayabilir.
+-> Yarış kazası olan bir olaya ceza verebilir.
+-> Rakibin teması nedeniyle pist dışına çıkan pilota ceza yazabilir.
+-> Güvenlik aracı altında hatalı uyarı veya ceza verebilir.
+-> Oyuncunun kontrolü dışında gelişen olayları ihlal olarak değerlendirebilir.
+17.1. Otomatik cezanın incelenmesi:
+Oyunun verdiği ceza, pilotun talebi üzerine veya hakem kurulunun kendi inisiyatifiyle incelenebilir.
+Hakemler üç farklı karar verebilir:
+Karar -> Açıklama şeklinde yazılmıştır.
+-> Onaylandı -> Oyun cezası doğru kabul edilir
+-> Değiştirildi -> Ceza kaldırılır veya farklı yaptırıma çevrilir.
+-> İptal edildi -> Pilotun ihlal yapmadığı kabul edilir.
+
+17.2. Hatalı oyun cezasının kaldırılması:
+Örnek:
+Pilot A, Pilot B ile çarpışıyor. Oyun Pilot B'ye 5 saniye ceza veriyor.
+Hakemler görüntüleri incelediğinde Pilot B'nin rakibi tarafından pist dışına zorlandığını tespit ediyor.
+Karar:
+-> Pilot B'nin 5 saniye cezası iptal edilir.
+-> Pilot A'nın hareketi ayrıca incelenir.
+-> Pilot A'ya gerekirse 10 saniye ceza verilir.
+-> Pilot A'nın ceza puanı da değerlendirilir.
+
+17.3. Oyun cezası doğruysa:
+Örnek:
+Pilot A, pist dışına çıkarak pozisyon kazanıyor. Oyun 5 saniye ceza veriyor.
+Hakemler ihlali doğruluyor.
+Karar:
+-> Oyun cezası korunur.
+-> Aynı ihlal için ek süre verilmez.
+-> Ancak ayrı ve daha ağır bir ihlal varsa ayrıca yaptırım uygulanabilir.
+
+17.4. Oyunun ceza vermediği ihlal:
+Örnek:
+Pilot A, Pilot B'ye arkadan çarpıyor ve Pilot B yarış dışı kalıyor.
+Oyun herhangi bir ceza vermiyor.
+Hakem kurulu görüntüleri inceliyor ve Pilot A'nın kusurlu olduğuna karar veriyor.
+Karar:
+-> Pilot A'ya +20 saniye.
+-> Olayın ağırlığına göre 3 veya 5 sıra grid cezası.
+-> 2 veya 3 ceza puanı.
+
+17.5. Otomatik ceza ve hakem cezasının çakışması:
+Bir ihlale karşı aynı türden iki yaptırım uygulanamaz.
+Örneğin:
+-> Oyun +5 saniye verdi.
+-> Hakemler aynı olay için +10 saniye uygun gördü.
+Bu durumda +5 ve +10 toplanmaz. Oyun cezası kaldırılarak nihai ceza +10 saniyeye yükseltilir.
+Ancak olayda ayrıca kasıt, tehlikeli davranış veya tekrar eden ihlal varsa ceza puanı ya da sonraki yarış grid cezası verilebilir. 
+
+MADDE 18 – HAKEM İNCELEMESİ ve KANIT SİSTEMİ:
+18.1. İnceleme başlatılması:
+Bir olay şu durumlarda incelenebilir:
+-> Pilotun şikâyeti.
+-> Rakip pilotun şikâyeti.
+-> Takım prensibinin başvurusu.
+-> Hakem kurulunun kendi tespiti.
+*-> Oyun tarafından verilen hatalı ceza şüphesi.
+-> Yarış sonucunu etkileyen ciddi olay.
+
+18.2. Gerekli kanıtlar:
+Hakemler aşağıdaki kanıtları talep edebilir:
+-> Yarış içi video kaydı.
+-> Pilotun araç kamerası.
+-> Rakip pilotun araç kamerası.
+-> Yarış tekrar görüntüsü.
+-> Oyun ceza ekranı.
+-> Yarış sonuç ekranı.
+-> Olayın gerçekleştiği tur ve viraj bilgisi.
+
+18.3. Kanıt sunma yükümlülüğü:
+Şikâyette bulunan pilot, olayın incelenebilmesi için mümkün olduğunca açık kanıt sunmalıdır.
+Kanıt bulunmayan olaylarda hakem kurulu, mevcut kayıtlar üzerinden karar verir.
+Sadece sözlü iddia ile ceza verilmez.
+
+18.4. Görüntü inceleme esasları:
+Hakemler:
+-> Temas öncesini,
+-> Temas anını,
+-> Temas sonrasını,
+-> Pilotların konumunu,
+-> Frenleme hareketlerini,
+-> Direksiyon hareketlerini,
+-> Pist sınırlarını
+birlikte değerlendirir. Yalnızca temasın gerçekleştiği tek bir kare üzerinden karar verilmez.
+
+18.5. Tarafsızlık:
+Bir hakem, kendi takımının veya doğrudan ilişkili olduğu pilotun olayında karar veremez.
+İlgili hakem incelemeden çekilir ve başka bir hakem görevlendirilir.
+
+MADDE 19 - İTİRAZ VE TEMYİZ SİSTEMİ:
+FPL'de hakem kararlarının yeniden değerlendirilmesi mümkündür.
+
+19.1. İtiraz hakkı:
+Pilotlar:
+-> Kendilerine verilen cezaya,
+-> Oyunun hatalı cezasına,
+-> Rakiplerinin ihlalinin değerlendirilmemesine,
+-> Yarış sonucuna etki eden hakem kararına
+itiraz edebilir.
+
+19.2. İtiraz süresi:
+-> Yarış sonrası itiraz: Yarışın bitiminden itibaren 24 saat.
+-> Ceza kararına itiraz: Kararın yayımlanmasından itibaren 24 saat.
+-> Yeni kanıtla yeniden inceleme: Yeni kanıtın sunulmasından itibaren 24 saat. 
+
+Süre geçtikten sonra başvurular normal şartlarda kabul edilmez.
+Ancak hile, kasıtlı manipülasyon veya sonradan ortaya çıkan önemli kanıtlar varsa lig yönetimi istisna tanıyabilir.
+
+19.3. İtirazın değerlendirilmesi:
+Hakem kurulu:
+-> İtirazı alır.
+-> Kanıtları inceler.
+-> İlgili pilotlardan açıklama ister.
+-> Gerekirse yeniden görüntü talep eder.
+-> Kararını açıklar.
+
+19.4. Karar seçenekleri:
+-> Önceki kararın onanması.
+-> Önceki cezanın hafifletilmesi.
+-> Önceki cezanın ağırlaştırılması.
+-> Cezanın tamamen iptal edilmesi.
+-> Yeni bir yaptırım uygulanması.
+-> Olayın Racing Incident olarak kapatılması.
+İtiraz etmek, tek başına pilotun cezasını artırmak için gerekçe oluşturmaz.
+
+MADDE - 20 YARIŞ SONUÇLARININ DÜZENLENMESİ:
+FPL'de resmî sonuçlar, oyun sonuçları ile hakem kararlarının birleştirilmesiyle oluşturulur.
+
+20.1. Aynı süreye sahip pilotlar:
+Ceza eklemesi sonucunda iki pilotun toplam süresi eşit olursa oyunun resmî sınıflandırması ve ilgili FIA sınıflandırma ilkeleri esas alınır.
+
+20.2. DNF pilotları:
+DNF olan pilotun derecesine zaman cezası eklenmesi mümkün değildir.
+Bu nedenle:
+-> Grid cezası,
+-> Şampiyona puanı silme,
+-> Diskalifiye,
+-> Yarış men
+gibi yaptırımlar uygulanabilir.
+
+20.3. Resmî sonuç duyurusu:
+Her yarıştan sonra şu bilgiler yayımlanmalıdır:
+-> Hakem kararları.
+-> İptal edilen cezalar.
+-> Eklenen zaman cezaları.
+-> Grid cezaları.
+-> Ceza puanları.
+-> Nihai yarış sıralaması.
+-> Takımlar klasmanı.
+
+MADDE 21 - LİSANS VE DİSİPLİN SİSTEMİ:
+FPL'de gerçek FIA Süper Lisansı kullanılmayacak; bunun yerine lig içi pilot lisans sistemi oluşturulacaktır.
+Bu sistem pilotların disiplin geçmişini ve yarışlara katılım durumunu takip eder.
+
+21.1. Pilot lisans seviyeleri:
+FPL Grade A -> Normal yarışma hakkı
+FPL Grade B -> Disiplin takibi
+FPL Grade C -> Son uyarı / gözetim
+Suspended -> Geçici yarış yasağı
+Revoked -> Ligden lisans iptali 
+Bu seviyeler FIA'nın gerçek uluslararası lisans sınıflarıyla karıştırılmamalıdır.
+21.2. Lisans seviyesinin düşürülmesi:
+-> 6 ceza puanı: Pilot disiplin takibine alınır.
+-> 9 ceza puanı: Pilot son uyarı seviyesine alınır.
+-> 12 ceza puanı: Bir yarış men.
+-> Tekrarlanan ağır ihlal: Lisansın geçici askıya alınması.
+-> Kasıtlı manipülasyon veya ciddi güvenlik ihlali: Lisans iptali değerlendirilebilir.
+
+21.3. Yarış men cezasının uygulanması:
+12 puana ulaşan pilot:
+-> Bir sonraki Grand Prix'ye katılamaz.
+-> O yarış için puan kazanamaz.
+-> Ceza puanları sıfırlanır.
+-> Sonraki yarışta normal şartlarda yeniden yarışabilir.
+Ayrıca hakemler 12 puan sınırından bağımsız olarak çok ağır bir ihlal nedeniyle yarış men cezası verebilir.
+
+MADDE 22 - TEKNİK DÜZENLEMELER ve OYUN AYARLARI:
+F1 25'te gerçek Formula 1'in bütün teknik kontrollerini birebir uygulamak mümkün değildir.
+Bu nedenle FPL, oyun içinde bütün pilotların eşit koşullarda yarışmasını esas alır.
+
+22.1. Yasaklanan davranışlar:
+-> Hile yazılımları.
+-> Oyun dosyalarına sportif avantaj sağlayacak müdahaleler.
+-> Yetkisiz oyun modifikasyonları.
+-> Yarış sırasında haksız avantaj sağlayan üçüncü taraf araçlar.
+-> Lig yönetiminin izin vermediği teknik müdahaleler.
+
+MADDE 23 - HAKEM KURULUNUN ÇALIŞMA USULÜ:
+FPL'de FIA/Hakem Kurulu, lig yönetiminden bağımsız ve tarafsız şekilde karar vermelidir.
+
+23.1. Hakemlerin yetkileri:
+Hakem kurulu:
+-> Yarış sırasında yaşanan olayları inceleyebilir.
+-> Yarış sonrasında ceza verebilir.
+-> Oyunun verdiği cezaları kaldırabilir.
+-> Yeni ceza uygulayabilir.
+-> Grid cezaları verebilir.
+-> Ceza puanı uygulayabilir.
+-> Pilotları yarıştan men edebilir.
+-> Yarış sonuçlarını değiştirebilir.
+-> Takımlar klasmanına yaptırım uygulayabilir.
+-> Gerekirse bir olayı yeniden incelemeye alabilir.
+
+23.2. Hakemlerin yetki sınırları:
+Hakemler:
+-> Kişisel anlaşmazlık nedeniyle ceza veremez.
+-> Kanıtsız şekilde pilot suçlayamaz.
+-> Aynı ihlale gerekçesiz şekilde birden fazla ceza uygulayamaz.
+-> Bir pilotun şampiyonluk mücadelesini etkilemek amacıyla karar veremez.
+-> Takım prensiplerinin talebiyle otomatik ceza veremez.
+23.3. Kararların yayımlanması:
+Her ceza kararında şu bilgiler bulunmalıdır:
+-> İlgili pilot veya pilotlar.
+-> Olayın gerçekleştiği yarış.
+-> Tur numarası.
+-> İhlalin açıklaması.
+-> İncelenen kanıtlar.
+-> FIA/FPL yönetmelik maddesi.
+-> Verilen ceza.
+-> Ceza puanı.
+-> Kararın gerekçesi.
+-> İtiraz hakkı ve süresi. 
+
+Kitapçık hakkında son bir önemli not:
+Bu metin, FIA'nın bütün teknik, mali ve lisans yönetmeliklerinin kelimesi kelimesine aktarımı değildir. F1 25'te oynanan FPL yarışları için hazırlanmış uyarlanmış bir sportif yönetmeliktir. Gerçek F1'deki motor parçası, bütçe sınırı, homologasyon ve teknik kontrol yaptırımları gibi oyunda karşılığı olmayan hükümler, bu nedenle doğrudan ceza tablosuna taşınmamıştır.
+Ayrıca burada belirlediğimiz saniye ve grid cezaları FPL'nin kendi önerilen ceza tarifesidir; FIA'nın her ihlal için zorunlu kıldığı sabit değerler değildir.
+Kural Açıklarını Kullanmaya Çalışanlar Hakkında:
+Bu ligde kuralların açıklarını arayarak haksız avantaj sağlamaya çalışan davranışlara kesinlikle müsamaha gösterilmeyecektir. Kurallarda açıkça belirtilmeyen bir durumun kötüye kullanılması, ihlal olmadığı anlamına gelmez. FIA ve Lig Yönetimi, yarışın ruhuna ve sportmenliğe aykırı davranışlar hakkında gerekli incelemeyi yapma ve yaptırım uygulama hakkını saklı tutar.
+
+Unutmayın: Amacımız kuralları aşmak değil, adil bir rekabet ortamı oluşturmaktır.
