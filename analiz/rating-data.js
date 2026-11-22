@@ -40,5 +40,60 @@ export const ratingReviews=[
         "reason": "Sondan, P11’den P7’ye yükseldi. Beş pit ve iki tur farkla finiş; yalnız sıra kazancından yüksek tempo sonucu çıkarılmadı."
       }
     ]
+  },
+  {
+    "round": 11,
+    "gp": "Bakü",
+    "date": "2026-11-21",
+    "assessments": [
+      {
+        "pilotId": "p3",
+        "score": 9.4
+      },
+      {
+        "pilotId": "p2",
+        "score": 9.1
+      },
+      {
+        "pilotId": "p28",
+        "score": 8.8
+      },
+      {
+        "pilotId": "p24",
+        "score": 8.5
+      },
+      {
+        "pilotId": "p9",
+        "score": 8.8
+      },
+      {
+        "pilotId": "p11",
+        "score": 8.1
+      },
+      {
+        "pilotId": "p7",
+        "score": 7.5
+      },
+      {
+        "pilotId": "p21",
+        "score": 7.2
+      },
+      {
+        "pilotId": "p6",
+        "score": 7.3
+      },
+      {
+        "pilotId": "p5",
+        "score": 6.9
+      },
+      {
+        "pilotId": "p23",
+        "score": 6.9
+      },
+      {
+        "pilotId": "p8",
+        "score": 6.8
+      }
+    ]
   }
 ];

@@ -1,6 +1,6 @@
 export const raceMetrics={
-  "reviewedAt": "2026-11-21",
-  "throughRound": 10,
+  "reviewedAt": "2026-11-22",
+  "throughRound": 11,
   "method": "Başlangıç, pit ve en iyi tur geçici oyun ekranından; sonuç ve puanlar mevcut resmî klasmandan. Grid 1 sıralama pole kanıtı değildir. Net sıra kazancı atak sayısı değildir. Tur tur veri mevcut değil.",
   "sessions": [
     {
@@ -1467,6 +1467,173 @@ export const raceMetrics={
           "grid": 7,
           "pitStops": 3,
           "bestLapMs": 99259
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "session": "Yarış",
+      "sourceChannel": "https://discord.com/channels/1557757019434385538/1562538279608520877",
+      "sourceAttachmentId": "1573780295616954418",
+      "sourceDate": "21.11.2026",
+      "sourceImage": null,
+      "gridP1": "Mehmet A. Kılıç",
+      "fastestLapName": null,
+      "qualifyingPole": "Mehmet A. Kılıç",
+      "qualifyingSource": "Kısa sıralama final paketi · 1:39.402. Yarışın en hızlı turu için resmî teyit bekleniyor.",
+      "rows": [
+        {
+          "name": "Ayaz Bulut",
+          "unmatchedNick": null,
+          "rawPosition": 1,
+          "rawStatus": "FIN",
+          "grid": 9,
+          "pitStops": 4,
+          "bestLapMs": 104006
+        },
+        {
+          "name": "Mehmet A. Kılıç",
+          "unmatchedNick": null,
+          "rawPosition": 2,
+          "rawStatus": "FIN",
+          "grid": 1,
+          "pitStops": 2,
+          "bestLapMs": 103530
+        },
+        {
+          "name": "Talha",
+          "unmatchedNick": null,
+          "rawPosition": 3,
+          "rawStatus": "FIN",
+          "grid": 10,
+          "pitStops": 3,
+          "bestLapMs": 105374
+        },
+        {
+          "name": "Kerem Ç.",
+          "unmatchedNick": null,
+          "rawPosition": 4,
+          "rawStatus": "FIN",
+          "grid": 3,
+          "pitStops": 3,
+          "bestLapMs": 104363
+        },
+        {
+          "name": "Ahmet",
+          "unmatchedNick": null,
+          "rawPosition": 5,
+          "rawStatus": "FIN",
+          "grid": 16,
+          "pitStops": 3,
+          "bestLapMs": 104949
+        },
+        {
+          "name": "Yusuf",
+          "unmatchedNick": null,
+          "rawPosition": 6,
+          "rawStatus": "FIN",
+          "grid": 11,
+          "pitStops": 6,
+          "bestLapMs": 104982
+        },
+        {
+          "name": "Mete T.",
+          "unmatchedNick": null,
+          "rawPosition": 7,
+          "rawStatus": "FIN",
+          "grid": 14,
+          "pitStops": 6,
+          "bestLapMs": 107344
+        },
+        {
+          "name": "Deniz A.",
+          "unmatchedNick": null,
+          "rawPosition": 8,
+          "rawStatus": "FIN",
+          "grid": 17,
+          "pitStops": 6,
+          "bestLapMs": 107912
+        },
+        {
+          "name": "Kaan Kayra",
+          "unmatchedNick": null,
+          "rawPosition": 9,
+          "rawStatus": "FIN",
+          "grid": 5,
+          "pitStops": 3,
+          "bestLapMs": 103901
+        },
+        {
+          "name": "Utku",
+          "unmatchedNick": null,
+          "rawPosition": 10,
+          "rawStatus": "FIN",
+          "grid": 8,
+          "pitStops": 2,
+          "bestLapMs": 63640
+        },
+        {
+          "name": "Umut A.",
+          "unmatchedNick": null,
+          "rawPosition": 11,
+          "rawStatus": "FIN",
+          "grid": 15,
+          "pitStops": 4,
+          "bestLapMs": 121488
+        },
+        {
+          "name": "Miras Old",
+          "unmatchedNick": null,
+          "rawPosition": 12,
+          "rawStatus": "FIN",
+          "grid": 13,
+          "pitStops": 7,
+          "bestLapMs": 107165
+        },
+        {
+          "name": "Ömer Uzunsoy",
+          "unmatchedNick": null,
+          "rawPosition": 13,
+          "rawStatus": "DNF",
+          "grid": 2,
+          "pitStops": 4,
+          "bestLapMs": 103466
+        },
+        {
+          "name": "Ege T.",
+          "unmatchedNick": null,
+          "rawPosition": 14,
+          "rawStatus": "DNF",
+          "grid": 12,
+          "pitStops": 2,
+          "bestLapMs": 107973
+        },
+        {
+          "name": "Batuhan Boz",
+          "unmatchedNick": null,
+          "rawPosition": 15,
+          "rawStatus": "DNF",
+          "grid": 4,
+          "pitStops": 4,
+          "bestLapMs": 104080
+        },
+        {
+          "name": "Kerem D.",
+          "unmatchedNick": null,
+          "rawPosition": 16,
+          "rawStatus": "DNF",
+          "grid": 7,
+          "pitStops": 5,
+          "bestLapMs": 105847
+        },
+        {
+          "name": "Ali Yaman H.",
+          "unmatchedNick": null,
+          "rawPosition": 17,
+          "rawStatus": "DNF",
+          "grid": 6,
+          "pitStops": 3,
+          "bestLapMs": 159609
         }
       ]
     }
