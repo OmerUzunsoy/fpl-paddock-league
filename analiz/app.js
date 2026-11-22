@@ -1,6 +1,6 @@
 import {analysis as madrid} from './analysis-data.js?v=32';
-import {analysis as baku} from './baku-data.js?v=32';
-import {league as L} from '../data.js?v=31';
+import {analysis as baku} from './baku-data.js?v=33';
+import {league as L} from '../data.js?v=33';
 import {estimate,positionAt,pathSegments,paceAt,paceRange} from './model.js?v=32';
 import {economy as E} from './economy.js?v=4';
 import {overviewView,dayView,budgetView,budgetResultView} from './views.js?v=32';
@@ -94,7 +94,7 @@ function ratings(){
  const sorted=[...A.drivers].sort((a,b)=>(b.rating??-1)-(a.rating??-1)||a.position-b.position);
  const best=sorted[0],p=person(best.name),rated=sorted.filter(d=>d.rating!=null).length;
  return heading(h(A.track.toLocaleUpperCase('tr'))+' · HAFTA SONU DEĞERLENDİRMESİ','PİLOT REYTİNGLERİ.','Yarış performansı ve kaydedilen veriler birlikte değerlendirildi. O haftanın notu burada, kalıcı OVR pilot kartında.')+
- `<section class="leader-panel"><div><p class="eyebrow">EN YÜKSEK YARIŞ REYTİNGİ</p><h2>${h(best.name)}</h2><div class="leader-score">${best.rating.toFixed(1).replace('.',',')} <small>/ 10</small></div><p>${h(best.ratingReason)}</p><button class="source-link" data-driver="${best.id}">Değerlendirmeyi incele</button></div><img src="${full(p.portrait)}" alt="${h(best.name)} için temsilî ${h(p.representative)} portresi"></section><div class="panel table-scroll"><table class="table rating-table"><thead><tr><th>Pilot</th><th>Reyting / 10</th><th>Start / finiş</th><th class="num">Puan</th><th>Değerlendirme</th></tr></thead><tbody>${sorted.map(d=>`<tr><td>${pilotCell(d)}</td><td>${score(d)}</td><td>P${d.grid} / ${resultLabel(d)}</td><td class="num">${d.points}</td><td style="min-width:280px;max-width:450px">${h(d.ratingReason)}</td></tr>`).join('')}</tbody></table></div><p class="note">${rated} pilot değerlendirildi. Yarış dışı sonuçlar tek başına puan kesintisi sayılmadı. Temas sayıları ve eksik hasar verisi tek başına hakem veya reyting ölçütü değildir.</p>`;
+ `<section class="leader-panel"><div><p class="eyebrow">EN YÜKSEK YARIŞ REYTİNGİ</p><h2>${h(best.name)}</h2><div class="leader-score">${best.rating.toFixed(1).replace('.',',')} <small>/ 10</small></div><p>${h(best.ratingReason)}</p><button class="source-link" data-driver="${best.id}">Değerlendirmeyi incele</button></div><img src="${full(p.portrait)}" alt="${h(best.name)} için temsilî ${h(p.representative)} portresi"></section><div class="panel table-scroll"><table class="table rating-table"><thead><tr><th>Pilot</th><th>Reyting / 10</th><th>Start / finiş</th><th class="num">Puan</th><th>Değerlendirme</th></tr></thead><tbody>${sorted.map(d=>`<tr><td>${pilotCell(d)}</td><td>${score(d)}</td><td>P${d.grid} / ${resultLabel(d)}</td><td class="num">${d.points}</td><td style="min-width:280px;max-width:450px">${h(d.ratingReason)}</td></tr>`).join('')}</tbody></table></div><p class="note">${rated} pilot değerlendirildi. Yarış notu sıralamayı, kaydedilen yarış performansını ve sonucu birlikte değerlendirir. Hakem kurulunun teyit ettiği kusur ayrı dikkate alınır.</p>`;
 }
 function budget(){return budgetView(viewContext());}
 

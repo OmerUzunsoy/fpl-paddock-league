@@ -5460,7 +5460,7 @@ export const league={
       "category": "YARIŞ RAPORU",
       "title": "Bakü GP geçici klasmanı ve hakem kararları",
       "team": "Haas",
-      "summary": "Ceza sonrası geçici podyum Mehmet A. Kılıç, Talha ve Ayaz Bulut. Yarış analizi ve 12 pilotun reytingi yayında.",
+      "summary": "Ceza sonrası geçici podyum Mehmet A. Kılıç, Talha ve Ayaz Bulut. Yarış analizi ve 17 pilotun reytingi yayında.",
       "body": "Mehmet A. Kılıç pole aldı ve oyunda ikinci bitirdi. Geçici hesapta önde. Bakü’de en hızlı tur telemetriye göre Ömer Uzunsoy’un 1:43.466 derecesi. Kaan Kayra ve Deniz A. Avusturya GP’den men. Kerem Ç. Avusturya’da, Kerem D. sonraki katılacağı Grand Prix’de sondan başlayacak. Miras’ın uyarısı kayda geçti. Resmî yarış klasmanı bekleniyor.",
       "route": "race",
       "value": "11"

@@ -1,4 +1,4 @@
-import {L} from './logic.js?v=31';
+import {L} from './logic.js?v=33';
 import {raceMetrics} from './metrics-data.js?v=31';
 export {raceMetrics};
 export function performanceRows({round=null,session='Yarış',name=null}={}){
