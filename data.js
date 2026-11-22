@@ -3498,12 +3498,12 @@ export const league={
       "team": "McLaren",
       "grid": 8,
       "pitStops": 2,
-      "bestLapMs": 63640,
+      "bestLapMs": 106135,
       "gapMs": null,
       "lapsBehind": 1,
       "status": "FIN",
       "points": 2,
-      "sourceNote": "Oyunun 1:03.640 kaydı tam tur gözlemiyle tutarsız. En hızlı tur istatistiği için teyit bekleniyor.",
+      "sourceNote": "Ekrandaki 1:03.640 tam tur gözlemiyle uyuşmadı. Telemetride doğrulanan kişisel en iyi tur 1:46.135 (2. tur).",
       "round": 11,
       "gp": "Azerbaycan",
       "session": "Yarış",
@@ -3646,7 +3646,7 @@ export const league={
       "lapsBehind": null,
       "status": "DNF",
       "points": 0,
-      "sourceNote": "DNF. +1 DP işlendi. +5 saniyenin uygulama kararı bekleniyor.",
+      "sourceNote": "Bakü’de DNF kaldığı için +5 saniye yarış derecesine eklenemedi. Madde 20.2 ve ligin grid uygulaması uyarınca sonraki katılacağı Grand Prix’de sondan başlayacak. Bakü kararındaki +1 DP geçerli.",
       "round": 11,
       "gp": "Azerbaycan",
       "session": "Yarış",
@@ -3654,7 +3654,7 @@ export const league={
       "source": "FPL geçici oyun sonucu, yarış telemetrisi ve 22 Kasım hakem bülteni.",
       "elapsedMs": null,
       "timeAdjustmentSeconds": 5,
-      "timeAdjustmentStatus": "pending"
+      "timeAdjustmentStatus": "converted_to_grid"
     },
     {
       "position": 17,
@@ -4659,15 +4659,15 @@ export const league={
       "session": "Yarış",
       "team": "Racing Bulls",
       "decisionStatus": "confirmed",
-      "applies": null,
-      "applicationStatus": "pending",
+      "applies": 12,
+      "applicationStatus": "scheduled",
       "source": "FPL Bakü GP kesinleşen hakem kararları · 22 Kasım 2026",
       "sourceUrl": "https://discord.com/channels/1557757019434385538/1562540879611428934/1574058820819222659",
       "name": "Kerem D.",
       "lap": 12,
       "trackPart": "1. viraj · yeniden start",
-      "type": "Saniye",
-      "amount": 5,
+      "type": "Grid",
+      "amount": null,
       "points": 1,
       "relatedPilots": [
         "Mete T."
@@ -4678,9 +4678,14 @@ export const league={
       ],
       "reason": "Safety Car sonrası frenajda Mete’ye arkadan çarptı.",
       "resultStatus": "DNF",
-      "applicationNote": "Madde 20.2 uyarınca DNF yarış derecesine +5 saniye eklenemedi. Bültenin +1 DP’si işlendi. Kurulun uygulama kararı bekleniyor.",
+      "applicationNote": "Bakü’de DNF kaldığı için +5 saniye yarış derecesine eklenemedi. Madde 20.2 ve ligin grid uygulaması uyarınca sonraki katılacağı Grand Prix’de sondan başlayacak. Bakü kararındaki +1 DP geçerli.",
       "expires": 21,
-      "expiresGP": "Macaristan"
+      "expiresGP": "Macaristan",
+      "originalSeconds": 5,
+      "gridGroup": "back",
+      "gridPolicy": "FPL-R09-BACK",
+      "nextParticipatingGP": true,
+      "conversionBasis": "Madde 20.2 · DNF’de uygulanamayan zaman cezasının grid yaptırımına çevrilmesi."
     },
     {
       "id": "FPL-2026-R11-005",
@@ -4887,6 +4892,29 @@ export const league={
       ],
       "reason": "Şikâyet 4 incelendi. Gaz pedalı %0 kaldı ve mevcut kanat hasarında artış görülmedi. Kasıt iddiasını destekleyen yeterli kanıt bulunmadı.",
       "applicationNote": "Ek yaptırım yok. Karara itiraz edilmedi."
+    },
+    {
+      "id": "FPL-2026-R11-012",
+      "decisionNumber": 12,
+      "round": 11,
+      "gp": "Azerbaycan",
+      "name": "Deniz A.",
+      "team": "Racing Bulls",
+      "session": "Sürücü lisansı",
+      "type": "Men",
+      "amount": 1,
+      "points": 0,
+      "licenceThreshold": 12,
+      "pointsBeforeBan": 17,
+      "reason": "Bakü’deki +7 DP ile Deniz A. 17 aktif DP’ye ulaştı ve 12 DP eşiğini geçti. Madde 21.3 uyarınca takvimdeki sıradaki Grand Prix olan Avusturya’da bir yarış men uygulanacak.",
+      "rules": [
+        "21.3"
+      ],
+      "source": "23 Kasım 2026 lig yönetimi onayı",
+      "decisionStatus": "confirmed",
+      "applies": 12,
+      "applicationStatus": "scheduled",
+      "applicationNote": "Avusturya GP (R12) · 1 yarış men. Bakü’deki zaman cezaları ve mevcut disiplin puanları ayrı kayıtlarda izlenir. Lisans puanı işlemi men tamamlanınca yapılır."
     }
   ],
   "teams": [
@@ -5186,7 +5214,7 @@ export const league={
     "warning": 9,
     "ban": 12,
     "resetNotice": "Lig yönetimi kararıyla Miami öncesi ceza ve disiplin puanı kayıtları sıfırlandı. Önceki kesin yarış sonuçları ve şampiyona puanları korunur.",
-    "updateNotice": "Bakü kararları ve bildirilen DP işlendi. Miras Old’un uyarısı 0 DP. Ahmet ile Umut A. eski grid cezalarını Bakü’de çekti. Deniz A. aktif DP’de 12 puan eşiğini geçti. Lisans yaptırımının uygulaması kurul kararında kesinleşir."
+    "updateNotice": "Bakü kararları, Miras Old’un uyarısı ve bildirilen DP işlendi. Ahmet ile Umut A. eski grid cezalarını Bakü’de çekti. Deniz A. 17 aktif DP ile Avusturya GP’den men. Kerem D.’nin +5 saniyesi sonraki katılacağı Grand Prix’de sondan başlamaya çevrildi ve +1 DP geçerli."
   },
   "pendingSanctions": [
     {
@@ -5378,13 +5406,17 @@ export const league={
       "decisionIds": [
         "FPL-2026-R11-004"
       ],
-      "type": "Saniye",
-      "amount": 5,
+      "type": "Grid",
+      "amount": null,
       "points": 1,
-      "targetRound": null,
+      "targetRound": 12,
       "targetSession": "Grand Prix",
-      "status": "review",
-      "reason": "Madde 20.2 uyarınca DNF yarış derecesine +5 saniye eklenemedi. Bültenin +1 DP’si işlendi. Kurulun uygulama kararı bekleniyor."
+      "status": "scheduled",
+      "reason": "Bakü’de DNF kaldığı için +5 saniye yarış derecesine eklenemedi. Madde 20.2 ve ligin grid uygulaması uyarınca sonraki katılacağı Grand Prix’de sondan başlayacak. Bakü kararındaki +1 DP geçerli.",
+      "originalSeconds": 5,
+      "gridGroup": "back",
+      "gridPolicy": "FPL-R09-BACK",
+      "nextParticipatingGP": true
     },
     {
       "id": "R11-008-UYGULAMA",
@@ -5401,6 +5433,23 @@ export const league={
       "targetSession": "Grand Prix",
       "status": "scheduled",
       "reason": "Avusturya GP’den men."
+    },
+    {
+      "id": "R11-DENIZ-LISANS-MEN",
+      "originRound": 11,
+      "name": "Deniz A.",
+      "team": "Racing Bulls",
+      "type": "Men",
+      "amount": 1,
+      "points": 0,
+      "licenceThreshold": 12,
+      "decisionIds": [
+        "FPL-2026-R11-012"
+      ],
+      "targetRound": 12,
+      "targetSession": "Grand Prix",
+      "status": "scheduled",
+      "reason": "Bakü’deki +7 DP ile Deniz A. 17 aktif DP’ye ulaştı ve 12 DP eşiğini geçti. Madde 21.3 uyarınca takvimdeki sıradaki Grand Prix olan Avusturya’da bir yarış men uygulanacak."
     }
   ],
   "news": [
@@ -5412,7 +5461,7 @@ export const league={
       "title": "Bakü GP geçici klasmanı ve hakem kararları",
       "team": "Haas",
       "summary": "Ceza sonrası geçici podyum Mehmet A. Kılıç, Talha ve Ayaz Bulut. Yarış analizi ve 12 pilotun reytingi yayında.",
-      "body": "Mehmet A. Kılıç pole aldı ve oyunda ikinci bitirdi. Hakem kararlarıyla yapılan geçici hesapta önde. Kerem Ç. Avusturya’da sondan başlayacak, Kaan Kayra Avusturya GP’den men edildi. Miras için itiraz sonrası uyarı kaydedildi. Resmî yarış klasmanı bekleniyor.",
+      "body": "Mehmet A. Kılıç pole aldı ve oyunda ikinci bitirdi. Geçici hesapta önde. Bakü’de en hızlı tur telemetriye göre Ömer Uzunsoy’un 1:43.466 derecesi. Kaan Kayra ve Deniz A. Avusturya GP’den men. Kerem Ç. Avusturya’da, Kerem D. sonraki katılacağı Grand Prix’de sondan başlayacak. Miras’ın uyarısı kayda geçti. Resmî yarış klasmanı bekleniyor.",
       "route": "race",
       "value": "11"
     },

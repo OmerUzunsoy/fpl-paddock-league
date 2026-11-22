@@ -1,9 +1,9 @@
 import {analysis as madrid} from './analysis-data.js?v=4';
-import {analysis as baku} from './baku-data.js?v=29';
-import {league as L} from '../data.js?v=29';
+import {analysis as baku} from './baku-data.js?v=31';
+import {league as L} from '../data.js?v=31';
 import {estimate,positionAt,pathSegments,paceAt,paceRange} from './model.js?v=4';
 import {economy as E} from './economy.js?v=4';
-import {overviewView,dayView,budgetView,budgetResultView} from './views.js?v=29';
+import {overviewView,dayView,budgetView,budgetResultView} from './views.js?v=31';
 import {siteConfig} from './site-config.js?v=4';
 import {timelineView,timelineRows,filterTimeline} from './performance-views.js?v=29';
 const A=new URLSearchParams(location.search).get('round')==='10'?madrid:baku;

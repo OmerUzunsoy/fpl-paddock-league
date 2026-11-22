@@ -1,5 +1,5 @@
 export const raceMetrics={
-  "reviewedAt": "2026-11-22",
+  "reviewedAt": "2026-11-23",
   "throughRound": 11,
   "method": "Başlangıç, pit ve en iyi tur geçici oyun ekranından; sonuç ve puanlar mevcut resmî klasmandan. Grid 1 sıralama pole kanıtı değildir. Net sıra kazancı atak sayısı değildir. Tur tur veri mevcut değil.",
   "sessions": [
@@ -1478,9 +1478,9 @@ export const raceMetrics={
       "sourceDate": "21.11.2026",
       "sourceImage": null,
       "gridP1": "Mehmet A. Kılıç",
-      "fastestLapName": null,
+      "fastestLapName": "Ömer Uzunsoy",
       "qualifyingPole": "Mehmet A. Kılıç",
-      "qualifyingSource": "Kısa sıralama final paketi · 1:39.402. Yarışın en hızlı turu için resmî teyit bekleniyor.",
+      "qualifyingSource": "Kısa sıralama final paketi · 1:39.402.",
       "rows": [
         {
           "name": "Ayaz Bulut",
@@ -1570,7 +1570,7 @@ export const raceMetrics={
           "rawStatus": "FIN",
           "grid": 8,
           "pitStops": 2,
-          "bestLapMs": 63640
+          "bestLapMs": 106135
         },
         {
           "name": "Umut A.",
@@ -1635,7 +1635,8 @@ export const raceMetrics={
           "pitStops": 3,
           "bestLapMs": 159609
         }
-      ]
+      ],
+      "fastestLapSource": "Bakü yarış telemetrisi · 2. tur · 1:43.466"
     }
   ]
 };
