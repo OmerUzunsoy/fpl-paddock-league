@@ -299,14 +299,14 @@ export const ratingReviews=[
       },
       {
         "pilotId": "p6",
-        "score": 7.3,
-        "reason": "P8’den başlayıp iki pitle bir tur geride, oyun klasmanında P10 bitirdi. Tutarsız 1:03.640 yerine 1:46.135 temiz kişisel en iyi turu esas alındı.",
+        "score": 7.2,
+        "reason": "P8’den başladı, iki pit ve 25 tamamlanan turla oyun ekranında P10 göründü. Resmî DNF sonucu yarış notunu 0,1 düşürdü. Tur temposu için telemetride doğrulanan 1:46.135 esas alındı.",
         "breakdown": {
           "driving": 7.3,
           "trackWarnings": 0,
           "qualifyingInvalidations": 0,
           "trackLimits": 0,
-          "retirement": 0,
+          "retirement": 0.1,
           "incident": 0,
           "game": 0,
           "stewards": 0
@@ -315,7 +315,7 @@ export const ratingReviews=[
       {
         "pilotId": "p5",
         "score": 6.5,
-        "reason": "P5’ten başladı. 1:43.901 ile güçlü tek tur attı, bir tur geride P9 oldu. Bir pist sınırı uyarısı aldı. Utku’ya divebomb (+20 sn ve 3 DP) ve Ömer’i yarış dışı bırakan temas (men ve 3 DP) FIA kesintisine girdi.",
+        "reason": "P5’ten başladı, 1:43.901 ile güçlü tek tur attı ve oyunda P9 oldu. Resmî sonuç DSQ. Bir pist sınırı uyarısı, Utku’ya divebomb ve Ömer’i yarış dışı bırakan temas nota yansıdı.",
         "breakdown": {
           "driving": 8,
           "trackWarnings": 1,
@@ -330,7 +330,7 @@ export const ratingReviews=[
       {
         "pilotId": "p23",
         "score": 6.8,
-        "reason": "P15’ten oyun klasmanında P11’e çıktı. Sarı bayrak altında aldığı stop-go çekilmeyince oyunda +10 sn’ye çevrildi. Tek kesinti yapıldı. Önceden verilen grid cezasını bu yarışta çekti.",
+        "reason": "P15’ten oyun klasmanında P11’e çıktı. Resmî sonuç DSQ. Sarı bayrak altında aldığı stop-go çekilmeyince oyunda +10 sn’ye çevrildi ve notta tek kesinti yapıldı.",
         "breakdown": {
           "driving": 7,
           "trackWarnings": 0,
@@ -345,7 +345,7 @@ export const ratingReviews=[
       {
         "pilotId": "p8",
         "score": 6.4,
-        "reason": "P13’ten 24 tur tamamlayıp P12 oldu. İki pist sınırı uyarısı, sarı bayrak altında verilen oyun stop-go’su ve 1. turdaki VSC için hakem uyarısı ayrı nedenlerle notu düşürdü.",
+        "reason": "P13’ten başladı ve 24 tur tamamladı. Oyunda P12, resmî sonuçta P9 ve 2 puan aldı. İki pist sınırı uyarısı, sarı bayrak stop-go’su ve 1. turdaki VSC hakem uyarısı ayrı nedenlerle notu düşürdü.",
         "breakdown": {
           "driving": 7.1,
           "trackWarnings": 2,
