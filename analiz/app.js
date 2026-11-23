@@ -1,7 +1,7 @@
 import {ratingBreakdownText} from './overall.js?v=36';
 import {analysis as madrid} from './analysis-data.js?v=36';
 import {analysis as baku} from './baku-data.js?v=39';
-import {league as L} from '../data.js?v=39';
+import {league as L} from '../data.js?v=40';
 import {estimate,positionAt,pathSegments,paceAt,paceRange,zoomLapRange,lapGaps,lapGapLimit} from './model.js?v=35';
 import {economy as E} from './economy.js?v=4';
 import {overviewView,dayView,budgetView,budgetResultView} from './views.js?v=39';

@@ -1,8 +1,8 @@
-import {league as L} from './data.js?v=39';
+import {league as L} from './data.js?v=40';
 export {L};
 export const currentRound=L.currentRound;
 export const team=name=>L.teams.find(t=>t.name===name)||{name,color:'#8c93a4'};
-export const currentAffiliation=p=>p.active===false?{kind:'departed',name:'Ayrıldı',team:null,color:'#a8b0c1',logo:'assets/departed-driver.svg',car:null}:{...team(p.team),kind:'team',team:p.team};
+export const currentAffiliation=p=>p.active===false?{kind:'departed',name:p.rosterStatus==='unassigned'?'Takımsız':'Ayrıldı',team:null,color:'#a8b0c1',logo:'assets/departed-driver.svg',car:null}:{...team(p.team),kind:'team',team:p.team};
 export const pilot=name=>L.pilots.find(p=>p.name===name);
 export const activePilots=()=>L.pilots.filter(p=>p.active!==false);
 export const teamMembers=name=>activePilots().filter(p=>p.team===name).sort((a,b)=>(a.seat??9)-(b.seat??9));

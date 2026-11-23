@@ -197,12 +197,15 @@ export const league={
     {
       "id": "p18",
       "name": "Selman C.",
-      "team": "Alpine",
-      "seat": 2,
-      "active": true,
+      "team": null,
+      "seat": null,
+      "active": false,
       "gameName": "selotappen",
       "portrait": "assets/franco-colapinto-2026.webp",
-      "representative": "Franco Colapinto"
+      "representative": "Franco Colapinto",
+      "formerTeam": "Alpine",
+      "rosterStatus": "unassigned",
+      "rosterNote": "23 Kasım kadro kontrolünde yarış koltuğu görünmüyor."
     },
     {
       "id": "p19",
@@ -245,12 +248,15 @@ export const league={
     {
       "id": "p22",
       "name": "Civan Ç.",
-      "team": "McLaren",
-      "seat": 1,
+      "team": null,
+      "seat": null,
       "gameName": "Civaaacelik",
       "representative": "Lando Norris",
       "portrait": "assets/lando-norris-2026.webp",
-      "active": true
+      "active": false,
+      "formerTeam": "McLaren",
+      "rosterStatus": "unassigned",
+      "rosterNote": "23 Kasım kadro kontrolünde yarış koltuğu görünmüyor."
     },
     {
       "id": "p23",
@@ -324,6 +330,16 @@ export const league={
       "gameName": "Batuhan__Boz",
       "representative": "Carlos Sainz",
       "portrait": "assets/carlos-sainz-2026.webp"
+    },
+    {
+      "id": "p30",
+      "name": "Batı Koçak",
+      "team": "Aston Martin",
+      "seat": 1,
+      "active": true,
+      "gameName": null,
+      "representative": "Fernando Alonso",
+      "portrait": "assets/fernando-alonso-2026.webp"
     }
   ],
   "results": [
@@ -5080,7 +5096,7 @@ export const league={
       "logo": "assets/ferrari-logo.webp",
       "car": "assets/ferrari-2026.webp",
       "source": "https://www.formula1.com/en/teams/ferrari",
-      "principal": null
+      "principal": "Nikilay L."
     }
   ],
   "transfers": [
@@ -5264,6 +5280,30 @@ export const league={
       "round": 11,
       "note": "22 Kasım kadro kontrolü · Williams #2.",
       "id": "kadro-20261122-6"
+    },
+    {
+      "id": "kadro-20261123-p22",
+      "name": "Civan Ç.",
+      "from": "McLaren",
+      "to": null,
+      "round": 12,
+      "note": "23 Kasım Discord kadrosunda koltuk boş. Pilot takımsız."
+    },
+    {
+      "id": "kadro-20261123-p18",
+      "name": "Selman C.",
+      "from": "Alpine",
+      "to": null,
+      "round": 12,
+      "note": "23 Kasım Discord kadrosunda koltuk boş. Pilot takımsız."
+    },
+    {
+      "id": "kadro-20261123-p30",
+      "name": "Batı Koçak",
+      "from": null,
+      "to": "Aston Martin",
+      "round": 12,
+      "note": "23 Kasım Discord kadrosu · Aston Martin #1."
     }
   ],
   "notes": [
@@ -5529,6 +5569,18 @@ export const league={
     }
   ],
   "news": [
+    {
+      "id": "aston-martin-bati-kocak",
+      "round": 12,
+      "publishedAt": "2026-11-23",
+      "category": "KADRO HABERİ",
+      "title": "Batı Koçak Aston Martin’de",
+      "team": "Aston Martin",
+      "summary": "Batı Koçak birinci koltuğa geldi. Umut A. ikinci koltukta.",
+      "body": "23 Kasım tarihli kadro güncellemesinde Batı Koçak, Aston Martin’in birinci pilotu olarak açıklandı. McLaren’in ilk, Alpine’in ikinci koltuğu boş. Civan Ç. ve Selman C. takım kadrosunda yer almıyor. Ferrari takım patronu Nikilay L.",
+      "route": "team",
+      "value": "Aston Martin"
+    },
     {
       "id": "baku-resmi-klasman",
       "round": 11,
@@ -5815,8 +5867,8 @@ export const league={
     "dateStatus": "Standart programa göre planlanan · Oturum teyidi bekleniyor"
   },
   "rosterReview": {
-    "reviewedAt": "2026-11-22",
-    "source": "11 Discord kadro kanalı ve güncel koltuk etiketleri. Oyun adları Bakü kaydı ve yönetim eşleştirmelerinden.",
+    "reviewedAt": "2026-11-23",
+    "source": "11 Discord kadro kanalı, güncel koltuk ve takım patronu etiketleri. Oyun adları önceki yarış kayıtları ve yönetim eşleştirmelerinden.",
     "teamsReviewed": [
       "Ferrari",
       "Red Bull",
