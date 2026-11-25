@@ -5673,7 +5673,7 @@ export const league={
       "team": "Racing Bulls",
       "decisionStatus": "confirmed",
       "applies": 13,
-      "applicationStatus": "scheduled",
+      "applicationStatus": "served",
       "source": "FPL Bakü GP kesinleşen hakem kararları · 22 Kasım 2026",
       "sourceUrl": "https://discord.com/channels/1557757019434385538/1562540879611428934/1574058820819222659",
       "name": "Kerem D.",
@@ -5691,14 +5691,15 @@ export const league={
       ],
       "reason": "Safety Car sonrası frenajda Mete’ye arkadan çarptı.",
       "resultStatus": "DNF",
-      "applicationNote": "Avusturya ana yarışında P5’ten başladı. Bakü’den kalan sondan başlama sonraki katılacağı Grand Prix için bekliyor.",
+      "applicationNote": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi.",
       "expires": 21,
       "expiresGP": "Macaristan",
       "originalSeconds": 5,
       "gridGroup": "back",
       "gridPolicy": "FPL-R09-BACK",
       "nextParticipatingGP": true,
-      "conversionBasis": "Madde 20.2 · DNF’de uygulanamayan zaman cezasının grid yaptırımına çevrilmesi."
+      "conversionBasis": "Madde 20.2 · DNF’de uygulanamayan zaman cezasının grid yaptırımına çevrilmesi.",
+      "serviceEvidence": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi."
     },
     {
       "id": "FPL-2026-R11-005",
@@ -6084,13 +6085,14 @@ export const league={
       "rules": [],
       "decisionStatus": "confirmed",
       "applies": 13,
-      "applicationStatus": "scheduled",
+      "applicationStatus": "served",
       "source": "FPL Avusturya hafta sonu · Yönetimin ilettiği kararlar",
       "resultStatus": "FIN",
-      "applicationNote": "Sonraki katılacağı Grand Prix’de sondan başlama.",
+      "applicationNote": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi.",
       "gridGroup": "back",
       "gridPolicy": "FPL-R09-BACK",
-      "nextParticipatingGP": true
+      "nextParticipatingGP": true,
+      "serviceEvidence": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi."
     },
     {
       "id": "FPL-2026-R12-007",
@@ -6112,13 +6114,14 @@ export const league={
       "rules": [],
       "decisionStatus": "confirmed",
       "applies": 13,
-      "applicationStatus": "scheduled",
+      "applicationStatus": "served",
       "source": "FPL Avusturya hafta sonu · Yönetimin ilettiği kararlar",
       "resultStatus": "DNF",
-      "applicationNote": "Sonraki katılacağı Grand Prix’de sondan başlama.",
+      "applicationNote": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi.",
       "gridGroup": "back",
       "gridPolicy": "FPL-R09-BACK",
-      "nextParticipatingGP": true
+      "nextParticipatingGP": true,
+      "serviceEvidence": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi."
     }
   ],
   "teams": [
@@ -6459,7 +6462,7 @@ export const league={
     "warning": 9,
     "ban": 12,
     "resetNotice": "Lig yönetimi kararıyla Miami öncesi ceza ve disiplin puanı kayıtları sıfırlandı. Önceki kesin yarış sonuçları ve şampiyona puanları korunur.",
-    "updateNotice": "Avusturya’nın yedi kararı işlendi. Fatih A. ve Ahmet için sondan başlama bekliyor. Kerem Ç. grid cezasını çekti. Deniz A.’nın lisans meni tamamlandı ve aktif DP’si sıfırlandı."
+    "updateNotice": "Avusturya’nın yedi kararı işlendi. Kerem D., Fatih A. ve Ahmet’in sondan başlama cezaları çekildi. Kerem Ç. grid cezasını çekti. Deniz A.’nın lisans meni tamamlandı ve aktif DP’si sıfırlandı."
   },
   "pendingSanctions": [
     {
@@ -6658,13 +6661,14 @@ export const league={
       "points": 1,
       "targetRound": 13,
       "targetSession": "Grand Prix",
-      "status": "scheduled",
-      "reason": "Avusturya ana yarışında P5’ten başladı. Bakü’den kalan sondan başlama sonraki katılacağı Grand Prix için bekliyor.",
+      "status": "served",
+      "reason": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi.",
       "originalSeconds": 5,
       "gridGroup": "back",
       "gridPolicy": "FPL-R09-BACK",
       "nextParticipatingGP": true,
-      "lastCheckedRound": 12
+      "lastCheckedRound": 12,
+      "serviceEvidence": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi."
     },
     {
       "id": "R11-008-UYGULAMA",
@@ -6716,11 +6720,12 @@ export const league={
       "points": null,
       "targetRound": 13,
       "targetSession": "Grand Prix",
-      "status": "scheduled",
-      "reason": "Avusturya GP 8. turdaki karar uyarınca sonraki katılacağı Grand Prix’ye sondan başlayacak.",
+      "status": "served",
+      "reason": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi.",
       "gridGroup": "back",
       "gridPolicy": "FPL-R09-BACK",
-      "nextParticipatingGP": true
+      "nextParticipatingGP": true,
+      "serviceEvidence": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi."
     },
     {
       "id": "R12-007-UYGULAMA",
@@ -6735,11 +6740,12 @@ export const league={
       "points": null,
       "targetRound": 13,
       "targetSession": "Grand Prix",
-      "status": "scheduled",
-      "reason": "Avusturya GP 36. turdaki karar uyarınca sonraki katılacağı Grand Prix’ye sondan başlayacak.",
+      "status": "served",
+      "reason": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi.",
       "gridGroup": "back",
       "gridPolicy": "FPL-R09-BACK",
-      "nextParticipatingGP": true
+      "nextParticipatingGP": true,
+      "serviceEvidence": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi."
     }
   ],
   "news": [
