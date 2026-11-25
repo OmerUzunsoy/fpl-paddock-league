@@ -5673,7 +5673,7 @@ export const league={
       "team": "Racing Bulls",
       "decisionStatus": "confirmed",
       "applies": 13,
-      "applicationStatus": "served",
+      "applicationStatus": "scheduled",
       "source": "FPL Bakü GP kesinleşen hakem kararları · 22 Kasım 2026",
       "sourceUrl": "https://discord.com/channels/1557757019434385538/1562540879611428934/1574058820819222659",
       "name": "Kerem D.",
@@ -5691,15 +5691,14 @@ export const league={
       ],
       "reason": "Safety Car sonrası frenajda Mete’ye arkadan çarptı.",
       "resultStatus": "DNF",
-      "applicationNote": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi.",
+      "applicationNote": "Lig yönetiminin güncel bildirimiyle Barcelona GP’ye sondan başlama.",
       "expires": 21,
       "expiresGP": "Macaristan",
       "originalSeconds": 5,
       "gridGroup": "back",
       "gridPolicy": "FPL-R09-BACK",
       "nextParticipatingGP": true,
-      "conversionBasis": "Madde 20.2 · DNF’de uygulanamayan zaman cezasının grid yaptırımına çevrilmesi.",
-      "serviceEvidence": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi."
+      "conversionBasis": "Madde 20.2 · DNF’de uygulanamayan zaman cezasının grid yaptırımına çevrilmesi."
     },
     {
       "id": "FPL-2026-R11-005",
@@ -6114,14 +6113,35 @@ export const league={
       "rules": [],
       "decisionStatus": "confirmed",
       "applies": 13,
-      "applicationStatus": "served",
+      "applicationStatus": "scheduled",
       "source": "FPL Avusturya hafta sonu · Yönetimin ilettiği kararlar",
       "resultStatus": "DNF",
-      "applicationNote": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi.",
+      "applicationNote": "Lig yönetiminin güncel bildirimiyle Barcelona GP’ye sondan başlama.",
       "gridGroup": "back",
       "gridPolicy": "FPL-R09-BACK",
-      "nextParticipatingGP": true,
-      "serviceEvidence": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi."
+      "nextParticipatingGP": true
+    },
+    {
+      "id": "FPL-2026-R13-KEREMC-GRID",
+      "decisionNumber": null,
+      "round": 13,
+      "gp": "Barcelona",
+      "session": "Grid",
+      "team": "Mercedes",
+      "name": "Kerem Ç.",
+      "type": "Grid",
+      "amount": null,
+      "points": null,
+      "dpStatus": "not_specified",
+      "decisionStatus": "confirmed",
+      "applicationStatus": "scheduled",
+      "applies": 13,
+      "reason": "Lig yönetiminin güncel bildirimiyle Barcelona GP’ye sondan başlama.",
+      "rules": [],
+      "source": "FPL lig yönetimi · 25 Kasım 2026",
+      "gridGroup": "back",
+      "gridPolicy": "FPL-R09-BACK",
+      "nextParticipatingGP": true
     }
   ],
   "teams": [
@@ -6462,7 +6482,7 @@ export const league={
     "warning": 9,
     "ban": 12,
     "resetNotice": "Lig yönetimi kararıyla Miami öncesi ceza ve disiplin puanı kayıtları sıfırlandı. Önceki kesin yarış sonuçları ve şampiyona puanları korunur.",
-    "updateNotice": "Avusturya’nın yedi kararı işlendi. Kerem D., Fatih A. ve Ahmet’in sondan başlama cezaları çekildi. Kerem Ç. grid cezasını çekti. Deniz A.’nın lisans meni tamamlandı ve aktif DP’si sıfırlandı."
+    "updateNotice": "Barcelona GP’ye Ahmet (JakeeeP), Kerem Ç. ve Kerem D. sondan başlayacak. Deniz A.’nın lisans meni tamamlandı ve aktif DP’si sıfırlandı."
   },
   "pendingSanctions": [
     {
@@ -6661,14 +6681,13 @@ export const league={
       "points": 1,
       "targetRound": 13,
       "targetSession": "Grand Prix",
-      "status": "served",
-      "reason": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi.",
+      "status": "scheduled",
+      "reason": "Lig yönetiminin güncel bildirimiyle Barcelona GP’ye sondan başlama.",
       "originalSeconds": 5,
       "gridGroup": "back",
       "gridPolicy": "FPL-R09-BACK",
       "nextParticipatingGP": true,
-      "lastCheckedRound": 12,
-      "serviceEvidence": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi."
+      "lastCheckedRound": 12
     },
     {
       "id": "R11-008-UYGULAMA",
@@ -6740,12 +6759,30 @@ export const league={
       "points": null,
       "targetRound": 13,
       "targetSession": "Grand Prix",
-      "status": "served",
-      "reason": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi.",
+      "status": "scheduled",
+      "reason": "Lig yönetiminin güncel bildirimiyle Barcelona GP’ye sondan başlama.",
       "gridGroup": "back",
       "gridPolicy": "FPL-R09-BACK",
-      "nextParticipatingGP": true,
-      "serviceEvidence": "Sondan başlama cezası lig yönetiminin bildirimiyle çekildi olarak kaydedildi."
+      "nextParticipatingGP": true
+    },
+    {
+      "id": "R13-KEREMC-GRID-UYGULAMA",
+      "originRound": 13,
+      "targetRound": 13,
+      "targetSession": "Grand Prix",
+      "name": "Kerem Ç.",
+      "team": "Mercedes",
+      "decisionIds": [
+        "FPL-2026-R13-KEREMC-GRID"
+      ],
+      "type": "Grid",
+      "amount": null,
+      "points": null,
+      "status": "scheduled",
+      "reason": "Lig yönetiminin güncel bildirimiyle Barcelona GP’ye sondan başlama.",
+      "gridGroup": "back",
+      "gridPolicy": "FPL-R09-BACK",
+      "nextParticipatingGP": true
     }
   ],
   "news": [
