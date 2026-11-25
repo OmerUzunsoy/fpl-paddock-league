@@ -434,5 +434,238 @@ export const ratingReviews=[
       }
     ],
     "policyVersion": 2
+  },
+  {
+    "round": 12,
+    "gp": "Avusturya",
+    "date": "24.11.2026",
+    "policyVersion": 2,
+    "assessments": [
+      {
+        "pilotId": "p30",
+        "score": 9.4,
+        "reason": "P1 başladı, resmî klasmanda P1 ve 25 puan aldı. En iyi geçerli turu 1:07.802. 15 temiz tempo turu, medyan 1:15.368. Oyunda 1 pist sınırı uyarısı görüldü.",
+        "breakdown": {
+          "driving": 9.5,
+          "trackWarnings": 1,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.06,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.0
+        }
+      },
+      {
+        "pilotId": "p28",
+        "score": 9.2,
+        "reason": "P2 başladı, resmî klasmanda P2 ve 18 puan aldı. En iyi geçerli turu 1:07.892. 15 temiz tempo turu, medyan 1:13.852. Oyunda 2 pist sınırı uyarısı görüldü.",
+        "breakdown": {
+          "driving": 9.3,
+          "trackWarnings": 2,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.11,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.0
+        }
+      },
+      {
+        "pilotId": "p1",
+        "score": 9.1,
+        "reason": "P3 başladı, resmî klasmanda P3 ve 15 puan aldı. En iyi geçerli turu 1:08.300. 9 temiz tempo turu, medyan 1:16.277. Oyunda 2 pist sınırı uyarısı görüldü.",
+        "breakdown": {
+          "driving": 9.2,
+          "trackWarnings": 2,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.11,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.0
+        }
+      },
+      {
+        "pilotId": "p6",
+        "score": 9.0,
+        "reason": "P4 başladı, resmî klasmanda P4 ve 12 puan aldı. En iyi geçerli turu 1:08.007. 17 temiz tempo turu, medyan 1:14.354. Oyunda 2 pist sınırı uyarısı görüldü.",
+        "breakdown": {
+          "driving": 9.1,
+          "trackWarnings": 2,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.11,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.0
+        }
+      },
+      {
+        "pilotId": "p11",
+        "score": 8.7,
+        "reason": "P11 başladı, resmî klasmanda P5 ve 10 puan aldı. En iyi geçerli turu 1:09.300. 17 temiz tempo turu, medyan 1:16.371. Oyunda 3 pist sınırı uyarısı görüldü. Son kayıtta oyun cezası +3 sn.",
+        "breakdown": {
+          "driving": 8.9,
+          "trackWarnings": 3,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.23,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.0
+        }
+      },
+      {
+        "pilotId": "p24",
+        "score": 9.0,
+        "reason": "P15 başladı, resmî klasmanda P6 ve 8 puan aldı. En iyi geçerli turu 1:08.321. 13 temiz tempo turu, medyan 1:17.113. Oyunda 1 pist sınırı uyarısı görüldü.",
+        "breakdown": {
+          "driving": 9.1,
+          "trackWarnings": 1,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.06,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.0
+        }
+      },
+      {
+        "pilotId": "p31",
+        "score": 8.3,
+        "reason": "P13 başladı, resmî klasmanda P7 ve 6 puan aldı. En iyi geçerli turu 1:10.113. 15 temiz tempo turu, medyan 1:19.201. Oyunda 3 pist sınırı uyarısı görüldü. Son kayıtta oyun cezası +3 sn.",
+        "breakdown": {
+          "driving": 8.5,
+          "trackWarnings": 3,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.23,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.0
+        }
+      },
+      {
+        "pilotId": "p26",
+        "score": 8.1,
+        "reason": "P14 başladı, resmî klasmanda P8 ve 4 puan aldı. En iyi geçerli turu 1:09.196. 13 temiz tempo turu, medyan 1:15.164. Hakem kararlarında toplam +10 sn. Oyunda 2 pist sınırı uyarısı görüldü.",
+        "breakdown": {
+          "driving": 8.5,
+          "trackWarnings": 2,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.11,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.33
+        }
+      },
+      {
+        "pilotId": "p7",
+        "score": 7.0,
+        "reason": "P6 başladı, resmî klasmanda P9 ve 2 puan aldı. En iyi geçerli turu 1:08.772. 13 temiz tempo turu, medyan 1:17.154. Hakem kararlarında toplam +20 sn. Oyunda 6 pist sınırı uyarısı görüldü. Son kayıtta oyun cezası +6 sn.",
+        "breakdown": {
+          "driving": 8.1,
+          "trackWarnings": 6,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.45,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.66
+        }
+      },
+      {
+        "pilotId": "p27",
+        "score": 6.5,
+        "reason": "P10 başladı, resmî klasmanda P10 ve 1 puan aldı. En iyi geçerli turu 1:09.641. 12 temiz tempo turu, medyan 1:18.331. Hakem kararlarında toplam +15 sn. Sonraki GP için sondan başlama kararı var. Oyunda 6 pist sınırı uyarısı görüldü. Son kayıtta oyun cezası +6 sn.",
+        "breakdown": {
+          "driving": 7.9,
+          "trackWarnings": 6,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.45,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.95
+        }
+      },
+      {
+        "pilotId": "p8",
+        "score": 7.3,
+        "reason": "P12 başladı, resmî klasmanda P11 ve 0 puan aldı. En iyi geçerli turu 1:09.557. 15 temiz tempo turu, medyan 1:19.122. Oyunda 4 pist sınırı uyarısı görüldü. Son kayıtta oyun cezası +13 sn.",
+        "breakdown": {
+          "driving": 7.8,
+          "trackWarnings": 4,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.28,
+          "retirement": 0,
+          "incident": 0,
+          "game": 0.25,
+          "stewards": 0.0
+        }
+      },
+      {
+        "pilotId": "p4",
+        "score": 6.5,
+        "reason": "P8 başladı, 35. tamamlanan turun ardından klasmanda DNF. En iyi geçerli turu 1:08.879. 9 temiz tempo turu, medyan 1:10.062. Oyunda 17 pist sınırı uyarısı görüldü. Son kayıtta oyun cezası +15 sn.",
+        "breakdown": {
+          "driving": 7.8,
+          "trackWarnings": 17,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.85,
+          "retirement": 0.35,
+          "incident": 0,
+          "game": 0.15,
+          "stewards": 0.0
+        }
+      },
+      {
+        "pilotId": "p9",
+        "score": 6.9,
+        "reason": "P9 başladı, 35. tamamlanan turun ardından klasmanda DNF. En iyi geçerli turu 1:08.558. 14 temiz tempo turu, medyan 1:17.012. Sonraki GP için sondan başlama kararı var. Oyunda 3 pist sınırı uyarısı görüldü. Son kayıtta oyun cezası +3 sn.",
+        "breakdown": {
+          "driving": 7.9,
+          "trackWarnings": 3,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.23,
+          "retirement": 0.35,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.45
+        }
+      },
+      {
+        "pilotId": "p2",
+        "score": 6.9,
+        "reason": "P7 başladı, 29. tamamlanan turun ardından klasmanda DNF. En iyi geçerli turu 1:09.112. 14 temiz tempo turu, medyan 1:17.048. Oyunda 7 pist sınırı uyarısı görüldü. Son kayıtta oyun cezası +6 sn.",
+        "breakdown": {
+          "driving": 7.8,
+          "trackWarnings": 7,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.51,
+          "retirement": 0.35,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.0
+        }
+      },
+      {
+        "pilotId": "p10",
+        "score": 7.3,
+        "reason": "P5 başladı, 22. tamamlanan turun ardından klasmanda DNF. En iyi geçerli turu 1:08.453. 10 temiz tempo turu, medyan 1:17.536. Oyunda 5 pist sınırı uyarısı görüldü. Son kayıtta oyun cezası +3 sn.",
+        "breakdown": {
+          "driving": 8.0,
+          "trackWarnings": 5,
+          "qualifyingInvalidations": null,
+          "trackLimits": 0.34,
+          "retirement": 0.35,
+          "incident": 0,
+          "game": 0.0,
+          "stewards": 0.0
+        }
+      }
+    ]
   }
 ];

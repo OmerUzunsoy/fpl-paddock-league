@@ -1,7 +1,7 @@
 export const raceMetrics={
-  "reviewedAt": "2026-11-23",
-  "throughRound": 11,
-  "method": "Başlangıç, pit ve en iyi tur geçici oyun ekranından; sonuç ve puanlar mevcut resmî klasmandan. Grid 1 sıralama pole kanıtı değildir. Net sıra kazancı atak sayısı değildir. Tur tur veri mevcut değil.",
+  "reviewedAt": "2026-11-25",
+  "throughRound": 12,
+  "method": "Start, pit ve en iyi tur oyun ekranından veya oturum telemetrisinden. Sonuç ve puanlar resmî klasmandan. Net sıra kazancı start ile resmî finiş arasındaki farktır. R12 ana yarışın oyun final paketi bulunmadığı için geçici oyun sırası boş bırakıldı.",
   "sessions": [
     {
       "round": 1,
@@ -1637,6 +1637,261 @@ export const raceMetrics={
         }
       ],
       "fastestLapSource": "Bakü yarış telemetrisi · 2. tur · 1:43.466"
+    },
+    {
+      "round": 12,
+      "session": "Yarış",
+      "sourceChannel": "https://discord.com/channels/1557757019434385538/1562538572500828350/1574973457404395591",
+      "sourceDate": "24.11.2026",
+      "sourceAttachmentId": "1574973457404395591",
+      "sourceImage": null,
+      "rows": [
+        {
+          "name": "Batı Koçak",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 1,
+          "pitStops": 2,
+          "bestLapMs": 67802
+        },
+        {
+          "name": "Ayaz Bulut",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 2,
+          "pitStops": 2,
+          "bestLapMs": 67892
+        },
+        {
+          "name": "Ömer Uzunsoy",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 3,
+          "pitStops": 3,
+          "bestLapMs": 68300
+        },
+        {
+          "name": "Utku",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 4,
+          "pitStops": 2,
+          "bestLapMs": 68007
+        },
+        {
+          "name": "Mete T.",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 11,
+          "pitStops": 3,
+          "bestLapMs": 69300
+        },
+        {
+          "name": "Kerem Ç.",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 15,
+          "pitStops": 3,
+          "bestLapMs": 68321
+        },
+        {
+          "name": "Yusuf H.",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 13,
+          "pitStops": 3,
+          "bestLapMs": 70113
+        },
+        {
+          "name": "Ali Yaman H.",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 14,
+          "pitStops": 4,
+          "bestLapMs": 69196
+        },
+        {
+          "name": "Yusuf",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 6,
+          "pitStops": 5,
+          "bestLapMs": 68772
+        },
+        {
+          "name": "Fatih A.",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 10,
+          "pitStops": 2,
+          "bestLapMs": 69641
+        },
+        {
+          "name": "Miras Old",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 12,
+          "pitStops": 3,
+          "bestLapMs": 69557
+        },
+        {
+          "name": "Ege T.",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 8,
+          "pitStops": 3,
+          "bestLapMs": 68879
+        },
+        {
+          "name": "Ahmet",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 9,
+          "pitStops": 3,
+          "bestLapMs": 68558
+        },
+        {
+          "name": "Talha",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 7,
+          "pitStops": 3,
+          "bestLapMs": 69112
+        },
+        {
+          "name": "Kerem D.",
+          "unmatchedNick": null,
+          "rawPosition": null,
+          "rawStatus": null,
+          "grid": 5,
+          "pitStops": 4,
+          "bestLapMs": 68453
+        }
+      ],
+      "gridP1": "Batı Koçak",
+      "fastestLapName": "Batı Koçak",
+      "fastestLapSource": "Telemetri · 7. tur · 1:07.802",
+      "qualifyingPole": null,
+      "qualifyingSource": "Ana yarış start gridi"
+    },
+    {
+      "round": 12,
+      "session": "Sprint",
+      "sourceChannel": "https://discord.com/channels/1557757019434385538/1562538572500828350/1574973340639039649",
+      "sourceDate": "24.11.2026",
+      "sourceAttachmentId": "1574973340639039649",
+      "sourceImage": null,
+      "rows": [
+        {
+          "name": "Ömer Uzunsoy",
+          "unmatchedNick": null,
+          "rawPosition": 1,
+          "rawStatus": "FIN",
+          "grid": 1,
+          "pitStops": 0,
+          "bestLapMs": 73571
+        },
+        {
+          "name": "Ayaz Bulut",
+          "unmatchedNick": null,
+          "rawPosition": 2,
+          "rawStatus": "FIN",
+          "grid": 2,
+          "pitStops": 1,
+          "bestLapMs": 73096
+        },
+        {
+          "name": "Kerem Ç.",
+          "unmatchedNick": null,
+          "rawPosition": 4,
+          "rawStatus": "FIN",
+          "grid": 3,
+          "pitStops": 1,
+          "bestLapMs": 74077
+        },
+        {
+          "name": "Yusuf",
+          "unmatchedNick": null,
+          "rawPosition": 3,
+          "rawStatus": "FIN",
+          "grid": 7,
+          "pitStops": 1,
+          "bestLapMs": 74605
+        },
+        {
+          "name": "Kerem D.",
+          "unmatchedNick": null,
+          "rawPosition": 5,
+          "rawStatus": "FIN",
+          "grid": 4,
+          "pitStops": 1,
+          "bestLapMs": 74499
+        },
+        {
+          "name": "Talha",
+          "unmatchedNick": null,
+          "rawPosition": 6,
+          "rawStatus": "FIN",
+          "grid": 6,
+          "pitStops": 1,
+          "bestLapMs": 73938
+        },
+        {
+          "name": "Utku",
+          "unmatchedNick": null,
+          "rawPosition": 7,
+          "rawStatus": "FIN",
+          "grid": 5,
+          "pitStops": 1,
+          "bestLapMs": 74203
+        },
+        {
+          "name": "Miras Old",
+          "unmatchedNick": null,
+          "rawPosition": 8,
+          "rawStatus": "FIN",
+          "grid": 10,
+          "pitStops": 0,
+          "bestLapMs": 76349
+        },
+        {
+          "name": "Ege T.",
+          "unmatchedNick": null,
+          "rawPosition": 9,
+          "rawStatus": "FIN",
+          "grid": 9,
+          "pitStops": 1,
+          "bestLapMs": 75420
+        },
+        {
+          "name": "Ahmet",
+          "unmatchedNick": null,
+          "rawPosition": 10,
+          "rawStatus": "FIN",
+          "grid": 8,
+          "pitStops": 3,
+          "bestLapMs": 75219
+        }
+      ],
+      "gridP1": "Ömer Uzunsoy",
+      "fastestLapName": "Ayaz Bulut",
+      "fastestLapSource": "Telemetri · 11. tur · 1:13.096",
+      "qualifyingPole": "Ömer Uzunsoy",
+      "qualifyingSource": "Sprint sıralaması final paketi"
     }
   ]
 };

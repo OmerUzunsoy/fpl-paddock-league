@@ -1,10 +1,14 @@
 export const analysisInfo={
-  "round": 11,
-  "gp": "Bakü",
-  "dayDriverName": "Mehmet A. Kılıç",
-  "timelineEvents": 201,
+  "round": 12,
+  "gp": "Avusturya",
+  "dayDriverName": "Batı Koçak",
+  "timelineEvents": 164,
   "races": {
     "10": 73,
-    "11": 201
+    "11": 201,
+    "12": 164
+  },
+  "sprintEvents": {
+    "12": 37
   }
 };
