@@ -1,10 +1,10 @@
 import {cardsView,cardResults,defaultCardFilters} from './pilot-cards.js?v=38';
 import {buildRatingCards,ratingBreakdownText,ratingPolicy} from './analiz/overall.js?v=36';
-import {ratingReviews} from './analiz/rating-data.js?v=41';
-import {analysisInfo} from './analiz/promotion-info.js?v=41';
-import {performanceRows,performanceTotals,raceMetrics} from './performance.js?v=41';
+import {ratingReviews} from './analiz/rating-data.js?v=42';
+import {analysisInfo} from './analiz/promotion-info.js?v=42';
+import {performanceRows,performanceTotals,raceMetrics} from './performance.js?v=42';
 import {rules} from './rules-data.js?v=23';
-import {L,currentRound,team,pilot,gp,licence,standings,teamStandings,movement,stats,expiryBatches,raceRows,sanction,driverCases,teamMembers,activePilots,hasSprint,countdownState,currentAffiliation,dpCleared} from './logic.js?v=41';
+import {L,currentRound,team,pilot,gp,licence,standings,teamStandings,movement,stats,expiryBatches,raceRows,sanction,driverCases,teamMembers,activePilots,hasSprint,countdownState,currentAffiliation,dpCleared} from './logic.js?v=42';
 const $=s=>document.querySelector(s),h=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const routes=[['home','Lig merkezi'],['standings','Puan durumu'],['statistics','İstatistikler'],['decisions','FIA kararları'],['licence','Ceza puanları'],['races','Yarışlar'],['teams','Takımlar'],['pilot-cards','Pilot Kartları'],['news','Paddock haberleri'],['rules','Kural kitapçığı']];
 let countdownTimer;

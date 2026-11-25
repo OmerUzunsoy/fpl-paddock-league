@@ -139,12 +139,15 @@ export const league={
     {
       "id": "p13",
       "name": "Taner Taşçı",
-      "team": "Williams",
+      "team": null,
       "gameName": "ttasci945",
       "portrait": "assets/alexander-albon-2026.webp",
       "representative": "Alexander Albon",
-      "active": true,
-      "seat": 1
+      "active": false,
+      "seat": null,
+      "rosterStatus": "unassigned",
+      "previousTeam": "Williams",
+      "rosterNote": "24 Kasım’da düzenlenen Williams kadrosunda yer almıyor."
     },
     {
       "id": "p14",
@@ -6421,6 +6424,14 @@ export const league={
       "to": "McLaren",
       "round": 12,
       "note": "24 Kasım Discord kadrosu · McLaren #2."
+    },
+    {
+      "id": "kadro-20261125-p13",
+      "name": "Taner Taşçı",
+      "from": "Williams",
+      "to": null,
+      "round": 12,
+      "note": "24 Kasım’da düzenlenen Williams kadrosunda yer almıyor."
     }
   ],
   "notes": [
@@ -6732,6 +6743,19 @@ export const league={
     }
   ],
   "news": [
+    {
+      "id": "williams-birinci-koltuk",
+      "round": 12,
+      "publishedAt": "2026-11-25",
+      "category": "KADRO HABERİ",
+      "title": "Williams’ın birinci koltuğu boşaldı",
+      "team": "Williams",
+      "summary": "Batuhan Boz ikinci koltukta devam ediyor.",
+      "body": "24 Kasım’da düzenlenen resmî Williams kadrosunda birinci koltuk boş. Taner Taşçı güncel yarış kadrosunda yer almıyor. Batuhan Boz ikinci pilot olarak listeleniyor.",
+      "route": "team",
+      "value": "Williams",
+      "sourceUrl": "https://discord.com/channels/1557757019434385538/1562908807787454474/1571180378675482665"
+    },
     {
       "id": "avusturya-resmi-klasman",
       "round": 12,
@@ -7055,8 +7079,8 @@ export const league={
     "dateStatus": "Barcelona programı onaylandı · Sprint yok"
   },
   "rosterReview": {
-    "reviewedAt": "2026-11-23",
-    "source": "11 Discord kadro kanalı, güncel koltuk ve takım patronu etiketleri. Oyun adları önceki yarış kayıtları ve yönetim eşleştirmelerinden.",
+    "reviewedAt": "2026-11-25",
+    "source": "25 Kasım’da 11 Discord kadro kanalı kontrol edildi. Williams’ın birinci koltuğu boş, ikinci pilot Batuhan Boz.",
     "teamsReviewed": [
       "Ferrari",
       "Red Bull",

@@ -1,4 +1,4 @@
-import {league as L} from './data.js?v=41';
+import {league as L} from './data.js?v=42';
 export {L};
 export const currentRound=L.currentRound;
 export const team=name=>L.teams.find(t=>t.name===name)||{name,color:'#8c93a4'};
