@@ -6,5 +6,5 @@
     document.getElementById('reload-league').addEventListener('click',function(){window.location.reload();});
   }
   var timer=setTimeout(failed,12000);
-  import('./app.js?v=44').then(function(){clearTimeout(timer);if(main.dataset.ready!=='true')failed();}).catch(function(error){clearTimeout(timer);console.error('FPL açılış hatası:',error);failed();});
+  import('./app.js?v=45').then(function(){clearTimeout(timer);if(main.dataset.ready!=='true')failed();}).catch(function(error){clearTimeout(timer);console.error('FPL açılış hatası:',error);failed();});
 })();

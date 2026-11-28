@@ -1,6 +1,6 @@
 export const raceMetrics={
-  "reviewedAt": "2026-11-25",
-  "throughRound": 12,
+  "reviewedAt": "2026-11-28",
+  "throughRound": 13,
   "method": "Start, pit ve en iyi tur oyun ekranından veya oturum telemetrisinden. Sonuç ve puanlar resmî klasmandan. Net sıra kazancı start ile resmî finiş arasındaki farktır. R12 ana yarışın oyun final paketi bulunmadığı için geçici oyun sırası boş bırakıldı.",
   "sessions": [
     {
@@ -1892,6 +1892,17 @@ export const raceMetrics={
       "fastestLapSource": "Telemetri · 11. tur · 1:13.096",
       "qualifyingPole": "Ömer Uzunsoy",
       "qualifyingSource": "Sprint sıralaması final paketi"
+    },
+    {
+      "round": 13,
+      "session": "Yarış",
+      "sourceChannel": "https://discord.com/channels/1557757019434385538/1562538572500828350/1576109311136895087",
+      "sourceAttachmentId": "1576109311136895087",
+      "sourceDate": "28.11.2026",
+      "sourceImage": null,
+      "gridP1": null,
+      "fastestLapName": null,
+      "rows": []
     }
   ]
 };

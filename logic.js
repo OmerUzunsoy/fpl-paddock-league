@@ -1,4 +1,4 @@
-import {league as L} from './data.js?v=44';
+import {league as L} from './data.js?v=45';
 export {L};
 export const currentRound=L.currentRound;
 export const team=name=>L.teams.find(t=>t.name===name)||{name,color:'#8c93a4'};
@@ -16,7 +16,7 @@ export function movement(name,kind='drivers'){const fn=kind==='teams'?teamStandi
 export function stats(name){const results=L.results.filter(r=>r.name===name),races=results.filter(r=>r.session==='Yarış'),finished=races.filter(r=>(r.status==='FIN'||r.classified)&&r.position!==null);return {results,races,points:championshipPoints(name),careerPoints:results.reduce((n,r)=>n+r.points,0),archivedPoints:results.filter(r=>r.round<(pilot(name)?.pointsStartRound??0)).reduce((n,r)=>n+r.points,0),wins:races.filter(r=>r.position===1).length,podiums:races.filter(r=>r.position!==null&&r.position<=3).length,best:finished.length?Math.min(...finished.map(r=>r.position)):null};}
 export function expiryBatches(round=currentRound,pilotNames=null){const m=new Map();for(const p of L.penalties.filter(x=>(pilotNames==null||pilotNames.has(x.name))&&x.round<=round&&x.expires>round&&Number.isFinite(x.points)&&!dpCleared(x,round))){if(!m.has(p.expires))m.set(p.expires,{round:p.expires,gp:p.expiresGP,points:0,pilots:new Map()});const b=m.get(p.expires);b.points+=p.points;b.pilots.set(p.name,(b.pilots.get(p.name)||0)+p.points);}return [...m.values()].sort((a,b)=>a.round-b.round);}
 export function raceRows(round,session='Yarış'){return L.results.filter(r=>r.round===Number(round)&&r.session===session).sort((a,b)=>(a.position??999)-(b.position??999));}
-export function sanction(p){return ['Uyarı','İşlem yok'].includes(p.type)?p.type:p.type==='Men'?'Yarıştan men':p.decisionStatus==='pending'||p.amount==null&&p.type!=='Grid'?'Yaptırım bekleniyor':p.type==='DP kaydı'?'DP kaydı':p.type==='Grid'?(p.gridPolicy==='FPL-R09-BACK'?'Sondan başlama':`${p.amount} sıra grid`):`+${p.amount} sn`;}
+export function sanction(p){return ['Uyarı','İşlem yok','Diskalifiye'].includes(p.type)?p.type:p.type==='Men'?'Yarıştan men':p.decisionStatus==='pending'||p.amount==null&&p.type!=='Grid'?'Yaptırım bekleniyor':p.type==='DP kaydı'?'DP kaydı':p.type==='Grid'?(p.gridPolicy==='FPL-R09-BACK'?'Sondan başlama':`${p.amount} sıra grid`):`+${p.amount} sn`;}
 export function driverCases(name){return L.penalties.filter(p=>!name||p.name===name).sort((a,b)=>b.round-a.round||(b.decisionNumber??0)-(a.decisionNumber??0)||a.id.localeCompare(b.id));}
 
 export const hasSprint=round=>!!gp(Number(round))?.hasSprint;

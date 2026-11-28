@@ -1,5 +1,5 @@
-import {L} from './logic.js?v=44';
-import {raceMetrics} from './metrics-data.js?v=41';
+import {L} from './logic.js?v=45';
+import {raceMetrics} from './metrics-data.js?v=45';
 export {raceMetrics};
 export function performanceRows({round=null,session='Yarış',name=null}={}){
  return L.results.filter(r=>(!round||r.round===Number(round))&&(session==='all'||r.session===session)&&(!name||r.name===name)).map(r=>{
